@@ -1,0 +1,1040 @@
+Date: Mon, 1 Jul 2024 07:22:21 +0000 (UTC)
+Message-ID: <1575653831.23.1719818541857@e52e908b5849>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_22_724741728.1719818541856"
+
+------=_Part_22_724741728.1719818541856
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>3. USER PROFILE - Roman Sobolenko Solar, Mark T=C5=A1ubarov</tit=
+le>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>3. USER PROFILE - Roman Sobolenko Solar, Mark T=C5=A1ubarov</h1>
+    <div class=3D"Section1">
+        <p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6e=
+c15fa1-cd67-4439-8d7f-0541c3e6bb38" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 285.0px;">
+<col style=3D"width: 285.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Precondition</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" colspan=3D"2" class=3D"confluenceTh">
+<p><strong>Logged in - </strong><a class=3D"external-link" data-card-appear=
+ance=3D"inline" href=3D"https://apps.fliplet.com/cerebrum-hub-my-directory-=
+v-1-0-3-l-5-omof-01/directory-rcn2" rel=3D"nofollow">https://apps.fliplet.c=
+om/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/directory-rcn2</a></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Email:</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_user@email.com" rel=3D"n=
+ofollow">team6_user@email.com</a></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_admin@ebay.com" rel=3D"n=
+ofollow">team6_admin@ebay.com</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Password:</p></td>
+<td class=3D"confluenceTd">
+<p>user</p></td>
+<td class=3D"confluenceTd">
+<p>admin</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d7=
+f2f23d-2e82-47de-b226-7fcd2490c94e" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.1</strong> <strong>Navigation to the Edit Profile module</stro=
+ng></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the User Profile by pressing =E2=80=9CProfile=E2=80=9D butto=
+n in the menu</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to Edit Profile module.</p></li>
+<li>
+<p>Click on =E2=80=9CProfile=E2=80=9D button.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The user is redirected to Edit Profile page.</p></li>
+<li>
+<p>=E2=80=9CProfile=E2=80=9D button works as intended.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1f=
+c547ad-2147-42ed-83f5-81ee8d841510" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.2 Typos and not working buttons</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that Edit Profile module page does not have any misspelled words=
+ and every button behaves correctly as expected.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check for typos on Edit Profile module page.</p></li>
+<li>
+<p>Verify, that there are no non-functioning buttons.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>No typos has been found.</p></li>
+<li>
+<p>Every button is working properly as expected.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fc=
+1ad5fd-43de-40eb-bb67-e14f3e4783aa" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.3 Editing general information</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify, that the employee can edit his/her general information.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Try to edit fields: First name, Last Name, Birthday, Department, State/R=
+egion, Country.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>All fields are editable.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3c=
+efc650-52ba-4c07-b2ea-960c861d564c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.4 Editing previous experiences information</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that user can edit information about previous experiences.</p></=
+td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Try to edit: experience, expertise, skills, recent projects, open to opp=
+ortunities, learning</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>All fields are editable.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"772" data-layout=3D"default" data-local-id=3D"83=
+b5a6f9-31fb-43e9-967c-e17ec13a5df3" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 594.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.5 Saving edited information</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that all the edited information is shown in the Directory after =
+saving.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Fill all desired for editing fields.</p></li>
+<li>
+<p>Scroll down and click on =E2=80=9CSave=E2=80=9D button.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>All fields are editable.</p></li>
+<li>
+<p>=E2=80=9CSave=E2=80=9D button works and saves the progress.</p></li>
+<li>
+<p>The user is redirected to the confirmation page with =E2=80=9CProfile sa=
+ved=E2=80=9D sign.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"772" data-layout=3D"default" data-local-id=3D"b8=
+7eddf0-3a5c-43d0-bb39-80355b2ece49" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 594.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.6 Choosing several variations in checkboxes</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check that users can choose several variants of =E2=80=9CExpertise=E2=80=
+=9D, =E2=80=9CSkills=E2=80=9D and =E2=80=9CDietary Restrictions=E2=80=9D</p=
+></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Try to choose several variants of =E2=80=9CExpertise=E2=80=9D, =E2=80=9C=
+Skills=E2=80=9D and =E2=80=9CDietary Restrictions=E2=80=9D</p></li>
+<li>
+<p>Click =E2=80=9CSave=E2=80=9D button</p></li>
+<li>
+<p>Check if entered information is now being displayed in profile</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Users can choose several variants of =E2=80=9CExpertise=E2=80=9D, =E2=80=
+=9CSkills=E2=80=9D and =E2=80=9CDietary Restrictions=E2=80=9D</p></li>
+<li>
+<p>=E2=80=9CSave=E2=80=9D button works correctly and saves the data.</p></l=
+i>
+<li>
+<p>Updated information is being displayed in profile</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"772" data-layout=3D"default" data-local-id=3D"39=
+afde68-576d-4448-b11b-2a7582579eab" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 594.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.7 Birthday date picking</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check that users can choose birthday date by clicking on calendar</p></t=
+d>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Try to change birthday date by choosing date on calendar</p></li>
+<li>
+<p>Ensure that you cannot choose current date or date from the future</p></=
+li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Users can choose birthday date by clicking on calendar</p></li>
+<li>
+<p>Users cannot choose current date or date from the future</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED</p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+54"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-54"=
+ class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubstu=
+dents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/=
+10303?size=3Dmedium">T11CCP-54</a> - <span class=3D"summary">3.7 Birthday c=
+alendar, birthday date can be from the future</span> <span class=3D"aui-loz=
+enge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-=
+pdf">TEST FAILED</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"772" data-layout=3D"default" data-local-id=3D"fa=
+4db945-73df-47d6-ac25-73f0d8d20f6a" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 594.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.8 Changing Profile picture</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify, that users can change their Profile picture</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Try to change Profile picture.</p></li>
+<li>
+<p>Scroll down and click on =E2=80=9CSave=E2=80=9D button to save progress.=
+</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Users can change their profile picture</p></li>
+<li>
+<p>=E2=80=9CSave=E2=80=9D button works correctly and saves the data.</p></l=
+i>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED</p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+34"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-34"=
+ class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubstu=
+dents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/=
+10303?size=3Dmedium">T11CCP-34</a> - <span class=3D"summary">3.8 User canno=
+t add profile picture</span> <span class=3D"aui-lozenge aui-lozenge-subtle =
+aui-lozenge-current jira-macro-single-issue-export-pdf">TEST FAILED</span> =
+</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"772" data-layout=3D"default" data-local-id=3D"64=
+281321-ae71-4c8a-81c0-63e337e8313d" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 594.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.9 Clearing entered data</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that clicking on =E2=80=9CClear=E2=80=9D button all entered data=
+ is erased.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Edit some fields with data</p></li>
+<li>
+<p>Scroll down and click =E2=80=9CClear=E2=80=9D button.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User can enter data in fields</p></li>
+<li>
+<p>=E2=80=9CClear=E2=80=9D button erases all the data entered before.</p></=
+li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED</p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+80"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-80"=
+ class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubstu=
+dents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/=
+10303?size=3Dmedium">T11CCP-80</a> - <span class=3D"summary">3.9 Clear cach=
+e data button not working properly</span> <span class=3D"aui-lozenge aui-lo=
+zenge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">TEST F=
+AILED</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"772" data-layout=3D"default" data-local-id=3D"b8=
+d2f818-f6ec-400e-8bd6-83a2ce622697" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 594.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>3.10 Text fields</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check that user can write in every text field</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on Edit Profile page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Try to write something in every text field</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User can write in every text field.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED</p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+51"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-51"=
+ class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubstu=
+dents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/=
+10303?size=3Dmedium">T11CCP-51</a> - <span class=3D"summary">3.10 Text fiel=
+ds with fullscreen options lead to an empty space</span> <span class=3D"aui=
+-lozenge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-exp=
+ort-pdf">TEST FAILED</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4d=
+17b4b8-d292-49d6-a21c-4afa9d5b93f9" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 174.0px;">
+<col style=3D"width: 586.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>3.11</strong> <strong>Edit Own Profile</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that an employee can edit their own profile information.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in with regular employee credentials.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the user's own profile page.</p></li>
+<li>
+<p>Modify contact information and other fields (e.g., expertise, projects).=
+</p></li>
+<li>
+<p>Save the changes.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<p>The user's profile should be updated with the new information, and the c=
+hanges should be reflected when viewed again.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_22_724741728.1719818541856--

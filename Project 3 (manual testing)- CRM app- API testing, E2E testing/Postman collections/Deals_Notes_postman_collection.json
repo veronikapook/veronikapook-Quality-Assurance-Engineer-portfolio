@@ -1,0 +1,3038 @@
+{
+	"info": {
+		"_postman_id": "24466d68-285d-4eeb-a5e9-6cda30eb083c",
+		"name": "Sprint 2 - Team 6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35083086",
+		"_collection_link": "https://team-6-0013.postman.co/workspace/CRM-Project-Team-6-Workspace~b031da86-b892-4dc6-8116-de0c57ec0e91/collection/35083086-24466d68-285d-4eeb-a5e9-6cda30eb083c?action=share&source=collection_link&creator=35083086"
+	},
+	"item": [
+		{
+			"name": "Deals",
+			"item": [
+				{
+					"name": "GET - the list of all deals",
+					"item": [
+						{
+							"name": "Get list of Deals",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?constraints=[{\"key\": \"name_text\", \"constraint_type\": \"equals\", \"value\": \"TEAM6 L5 E2E PROMOTION\"}]",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "constraints",
+											"value": "[{\"key\": \"name_text\", \"constraint_type\": \"equals\", \"value\": \"TEAM6 L5 E2E PROMOTION\"}]"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get list of Deals; no authorization",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get list of Deals-cursor 5, count 5",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?cursor=5&count=5",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "cursor",
+											"value": "5"
+										},
+										{
+											"key": "count",
+											"value": "5"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get the list of Deals- negative cursor",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?cursor=-10",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "cursor",
+											"value": "-10"
+										},
+										{
+											"key": "count",
+											"value": "5",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "- sort by company_name_text, boolean- false",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?sort_field=company_name_text&boolean=false",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "sort_field",
+											"value": "company_name_text"
+										},
+										{
+											"key": "boolean",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "- sort by “Created Date”",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?sort_field=Created Date&boolean=false",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "sort_field",
+											"value": "Created Date"
+										},
+										{
+											"key": "boolean",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get list of Deals- filtered by file_list_custom_data_file",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?constraints=[{\"key\": \"file_list_custom_data_file\", \"constraint_type\": \"not empty\"}]",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "constraints",
+											"value": "[{\"key\": \"file_list_custom_data_file\", \"constraint_type\": \"not empty\"}]"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get list of Deals- filtered by status_option_status \"In progress\", \"Lost\" and \"Won\"",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?constraints=[{\"key\": \"status_option_status\", \"constraint_type\": \"equals\", \"value\":\"In progress\"}]",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "constraints",
+											"value": "[{\"key\": \"status_option_status\", \"constraint_type\": \"equals\", \"value\":\"In progress\"}]"
+										},
+										{
+											"key": "constraints",
+											"value": "[{\"key\": \"status_option_status\", \"constraint_type\": \"equals\", \"value\":\"Lost\"}]",
+											"disabled": true
+										},
+										{
+											"key": "constraints",
+											"value": "[{\"key\": \"status_option_status\", \"constraint_type\": \"equals\", \"value\":\"Won\"}]",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get list of Deals- filtered by created_by, DESC",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?constraint=[{\"key\": \"created_by\", \"constraint_type\": \"not empty\"}]&boolean=false",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "constraint",
+											"value": "[{\"key\": \"created_by\", \"constraint_type\": \"not empty\"}]"
+										},
+										{
+											"key": "boolean",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get list of Deals- filtered by logo_image",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal?constraint=[{\"key\": \"logo_image\", \"constraint_type\": \"not empty\"}]",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "constraint",
+											"value": "[{\"key\": \"logo_image\", \"constraint_type\": \"not empty\"}]"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET - deal by Id",
+					"item": [
+						{
+							"name": "Get Deal by Id",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "API KEY",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{baseUrl}/obj/deal?UniqueID=1718365567070x962411351433019400",
+									"host": [
+										"{baseUrl}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1718365567070x962411351433019400"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Deal by Id- no authorization",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal/?_id=1678718679761x124636083595509760",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										""
+									],
+									"query": [
+										{
+											"key": "_id",
+											"value": "1678718679761x124636083595509760"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST - create a new deal",
+					"item": [
+						{
+							"name": "Create a new Deal - min fields set",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"assignee__user\": \"Kevin Kelly\",\n    \"company_name_text\": \"Team6 L5 E2E ONE\",\n    \"deal_value_estimation_number\": 100,\n    \"name_text\": \"Team6 L5 E2E TEST\",\n    \"order_number\": 7,\n    \"status_option_status\": \"Lost\",\n    \"visible_to_list_user\": []\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - min fields set Copy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"assignee__user\": \"Kevin Kelly\",\n    \"company_name_text\": \"Team6 L5 E2E ONE\",\n    \"deal_value_estimation_number\": 100,\n    \"name_text\": \"Team6 L5 E2E TEST\",\n    \"order_number\": 7,\n    \"status_option_status\": \"Lost\",\n    \"visible_to_list_user\": []\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - no deal_value_estimation",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1658145123067x157867491350963230\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deal by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1658145123067x157867491350963230\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - max fields set",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 5000258,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [],\n  \"funnel_custom_funnel1\": \"1717009359123x720540828641325000\",\n  \"lead_custom_lead\": \"1717221446547x177524797604351680\",\n  \"logo_image\": \"https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340\",\n  \"name_text\": \"Team 6 try v. by RiA\",\n  \"note_list_custom_note\": [\n    \"1627393624856x199214596987551740\"\n  ],\n  \"order_number\": 555,\n  \"stage_custom_stage\": \"1625047818390x664413796313397600\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - empty body",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"\",\n  \"company_name_text\": \"\",\n  \"deal_value_estimation_number\": ,\n  \"description_text\": \"\",\n  \"file_list_custom_data_file\": \"\",\n  \"funnel_custom_funnel1\": \"\",\n  \"lead_custom_lead\": \"\",\n  \"logo_image\": \"\",\n  \"name_text\": \"\",\n  \"note_list_custom_note\": [\n    \"\"\n  ],\n  \"order_number\": ,\n  \"stage_custom_stage\": \"\",\n  \"status_option_status\": \"\",\n  \"visible_to_list_user\": [\n    \"\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - no assigne_user",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1717079423399x714608074658541300\",\n  \"name_text\": \"Team 6 testing by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625125825767x718816571317085800\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - no company_name",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - no deal_value_estimation",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\"\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - no name_text",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - no order_number",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deals by RiA\",\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - no status_option",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - company_name_text number",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"125896458\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - deal_value_estimation_number string",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": Test of team six,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - name_text number",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"5698745698256547\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - status_option_status incorrect",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"testing\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419355650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - visible_to_list_user boolean",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"true\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Deal - visible_to_list_user non exist.",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"assignee__user\": \"1625047362532x398219546419355650\",\n  \"company_name_text\": \"{{$randomCompanyName}}\",\n  \"deal_value_estimation_number\": 607000,\n  \"description_text\": \"{{$randomLoremSentence}}\",\n  \"file_list_custom_data_file\": [\n  ],\n  \"logo_image\": \"\",\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\n  \"name_text\": \"Team 6 try deals by RiA\",\n  \"order_number\": 0,\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\n  \"status_option_status\": \"In progress\",\n  \"visible_to_list_user\": [\n    \"1625047362532x398219546419356650\"\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/deal",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"deal"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PATCH - Modify deal data",
+					"item": [
+						{
+							"name": "Modify deal data - valid ID",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"assignee__user\": \"1625047362532x398219546419355650\",\r\n  \"company_name_text\": \"{{$randomCompanyName}}\",\r\n  \"deal_value_estimation_number\": 607000,\r\n  \"description_text\": \"{{$randomLoremSentence}}\",\r\n  \"file_list_custom_data_file\": [\r\n  ],\r\n  \"logo_image\": \"\",\r\n  \"funnel_custom_funnel1\": \"1678718113594x500417408037027840\",\r\n  \"name_text\": \"Team 6 try deals by RiA Modified\",\r\n  \"order_number\": 0,\r\n  \"stage_custom_stage\": \"1625047829315x658646823454309500\",\r\n  \"status_option_status\": \"In progress\",\r\n  \"visible_to_list_user\": [\r\n    \"1625047362532x398219546419355650\"\r\n  ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "1718286329434x323882605729284100",
+											"value": null,
+											"disabled": true
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1718286329434x323882605729284100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - lead_custom_lead non existent",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"lead_custom_lead\": \"1717221446547x177524797604451680\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717600131111x379203690595737660"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - assigne_user",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"assignee__user\": \"1625047373081x778685405315052900\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - assigne_user non existent",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"assignee__user\": \"1625047373081x778685405315054500\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - company_name_text",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"company_name_text\": \"Team 6 try v by Ria\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - deal_value_estimation_number text",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"deal_value_estimation_number\":  team six,\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - description_text number",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"description_text\": \"45865897456944112361477256333654125566\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - file_list_custom_data field non existent",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"lead_custom_lead\": \"1625060801000x458758004411990000\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1627395729816x301381231009333250"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - funnel_custom_funnel1",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"file_list_custom_data_file\": [file.doc],\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - lead_custom_lead",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"lead_custom_lead\": \"1717221446547x177524797604351680\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - lead_custom_lead non existent",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"lead_custom_lead\": \"1627393624856x199214596987551740\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - logo_image",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"logo_image\": \"https://images.credly.com/images/31bfbc2c-4d5d-4219-8387-2c1c3f2f5d8e/End-to-End_Testing__1_.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID?UniqueID=1718283354335x605480164039589900",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1718283354335x605480164039589900"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - logo_image non an URL",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"logo_image\": \"picture.jpg\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625053881585x270893551262105600"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - name_text",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"name_text\": \"Team 6 try v. by RiA\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717473910326x206776272017970000"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - note_list_custom_note",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"note_list_custom_note\": \"1627393624856x199214596987551740\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717473910326x206776272017970000"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - note_list_custom_note non exist",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"note_list_custom_note\": \"1627393624856x199214856987551740\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717473910326x206776272017970000"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - order_number",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"order_number\": 1,\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717473910326x206776272017970000"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - status_option_status",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"status_option_status\": \"won\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717516865201x442288375286726660"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - status_option_status non existent",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"status_option_status\": \"testing\",\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717473910326x206776272017970000"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify deal data - visible_to_list_user",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"visible_to_list_user\": [\r\n\"1625051658962x581289845978797800\",\r\n\"1625047373081x778685405315052900\"\r\n],\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717473910326x206776272017970000"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT - Replace deal data",
+					"item": [
+						{
+							"name": "Replace deal data by UniqueID",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"assignee__user\": \"1625047362532x398219546419355650\",\r\n  \"company_name_text\": \"{{$randomCompanyName}}\",\r\n  \"deal_value_estimation_number\": 5000258,\r\n  \"description_text\": \"{{$randomLoremSentence}}\",\r\n  \"file_list_custom_data_file\": [],\r\n  \"funnel_custom_funnel1\": \"1717009359123x720540828641325000\",\r\n  \"lead_custom_lead\": \"1717221446547x177524797604351680\",\r\n  \"logo_image\": \"https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340\",\r\n  \"name_text\": \"Team 6 try v. by RiA\",\r\n  \"note_list_custom_note\": [\r\n    \"1627393624856x199214596987551740\"\r\n  ],\r\n  \"order_number\": 555,\r\n  \"stage_custom_stage\": \"1625047818390x664413796313397600\",\r\n  \"status_option_status\": \"In progress\",\r\n  \"visible_to_list_user\": [\r\n    \"1625047362532x398219546419355650\"\r\n  ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717590828752x420122863543837000"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Replace deal data - empty body",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"assignee__user\": null,\r\n    \"company_name_text\": null,\r\n    \"deal_value_estimation_number\": null,\r\n    \"description_text\": null,\r\n    \"file_list_custom_data_file\": [],\r\n    \"funnel_custom_funnel1\": null,\r\n    \"lead_custom_lead\": null,\r\n    \"logo_image\": null,\r\n    \"name_text\": null,\r\n    \"note_list_custom_note\": [],\r\n    \"order_number\": null,\r\n    \"stage_custom_stage\": null,\r\n    \"status_option_status\": null,\r\n    \"visible_to_list_user\": []\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717590828752x420122863543837000"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE - Delete deal",
+					"item": [
+						{
+							"name": "Delete deal by UniqueID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625060551284x207376926164123650"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete deal by UniqueID non exist",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{BaseURL}}/obj/deal/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"deal",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1625060551284x207376926164123650"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Notes",
+			"item": [
+				{
+					"name": "GET - the list of all notes",
+					"item": [
+						{
+							"name": "The list of all Notes",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/note",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "sorting_field",
+											"value": "content text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "The list of all Notes- no authorization",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/note",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "sorting_field",
+											"value": "content text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "The list of all Notes limit 7",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/note?limit=7",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "7"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "The list of all Notes- cursor 7",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/note?cursor=7",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "cursor",
+											"value": "7"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "The list of all Notes by sort_field Created Date",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note?sort_field=Created Date",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "sort_field",
+											"value": "Created Date"
+										},
+										{
+											"key": "Descending",
+											"value": "true",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "The list of all Notes by sort_field Modified Date, DESC",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASEURL}}/obj/note?sort_field=Modified Date&descending=true",
+									"host": [
+										"{{BASEURL}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "sort_field",
+											"value": "Modified Date"
+										},
+										{
+											"key": "descending",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "The list of all Notes by sort_field Created By",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/note?sort_field=Created By",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "sort_field",
+											"value": "Created By"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DELETE?The list of constraints text contains\"content_text\",",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"key\": \"content_text\",\r\n  \"constraint_type\": \"text contains\",\r\n  \"value\": \"Team6\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/note?sort_field=content_text&content_text=[{\"key\": \"content_text\", \"constraint_type\": \"text contains\",\"value\": \"team6\"}]\",&constraints=[{\"key\": \"content_text\", \"constraint_type\": \"text contains\",\"value\": \"team6\"}]\",",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "sort_field",
+											"value": "content_text"
+										},
+										{
+											"key": "content_text",
+											"value": "[{\"key\": \"content_text\", \"constraint_type\": \"text contains\",\"value\": \"team6\"}]\","
+										},
+										{
+											"key": "constraints",
+											"value": "[{\"key\": \"content_text\", \"constraint_type\": \"text contains\",\"value\": \"team6\"}]\","
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "The list of all Notes by content_text constraint",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"key\": \"content_text\",\r\n  \"constraint_type\": \"text contains\",\r\n  \"value\": \"Team6\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/note?constraints=[{\"key\": \"content_text\", \"constraint_type\": \"equals\", \"value\": \"Offer a new deal to the client\"}]",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									],
+									"query": [
+										{
+											"key": "constraints",
+											"value": "[{\"key\": \"content_text\", \"constraint_type\": \"equals\", \"value\": \"Offer a new deal to the client\"}]"
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "GET - note by Id",
+					"item": [
+						{
+							"name": "Get Note by Id",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/note/:UniqueId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note",
+										":UniqueId"
+									],
+									"variable": [
+										{
+											"key": "UniqueId",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Note by Id- no authorization",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/note/:UniqueId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note",
+										":UniqueId"
+									],
+									"variable": [
+										{
+											"key": "UniqueId",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST - create a new note",
+					"item": [
+						{
+							"name": "Create a new Note",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": \"Still Extremely good job Team6, yes it is indeed\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/note",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Note- random text",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": \"{{$randomPhrase}}\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/note",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a new Note- empty body",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/obj/note",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"note"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "PATCH",
+					"item": [
+						{
+							"name": "PATCH a note by ID",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": \"Yes indeed, no doubt\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546000",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546000"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH a note by ID- no auth",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": \"Yes indeed, no doubt\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546000",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546000"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH a note by invalid ID",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": \"Yes indeed, no doubt\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546121",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546121"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH a note by id- boolean",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": false\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546121",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546121"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH a note by id- numeric",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": 08062024\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546121",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546121"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH a note by id- empty body",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546121",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546121"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH a note by id- empty content",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": null\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546121",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546121"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT",
+					"item": [
+						{
+							"name": "PUT a note by new stage Unique_id",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "api_token",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "b30ca93d0a7ebe389e9326a22497bf38",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"content_text\": \"LoaderRoaderFunnelTunnel\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1/obj/note/:UniqueID?UniqueID=1717686386225x345331825882546000",
+									"protocol": "https",
+									"host": [
+										"cerebrumhubcrmlite",
+										"bubbleapps",
+										"io"
+									],
+									"path": [
+										"api",
+										"1.1",
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"query": [
+										{
+											"key": "UniqueID",
+											"value": "1717686386225x345331825882546000"
+										}
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717686121819x421995122994541100"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE - Delete Note",
+					"item": [
+						{
+							"name": "Delete note by UniqueID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{BaseURL}}/obj/note/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "1717166782351x513524158403706900"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete note by UniqueID non exist",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{BaseURL}}/obj/note/:UniqueID",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"obj",
+										"note",
+										":UniqueID"
+									],
+									"variable": [
+										{
+											"key": "UniqueID",
+											"value": "umpaumpa cha-cha-cha"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "GET - the list of all users",
+					"item": [
+						{
+							"name": "Get list of Users",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/user",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"user"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET - user by Id",
+					"item": [
+						{
+							"name": "Get User by Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/obj/user/:UniqueId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"obj",
+										"user",
+										":UniqueId"
+									],
+									"variable": [
+										{
+											"key": "UniqueId",
+											"value": "1696659261091x541239446325940200"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "b30ca93d0a7ebe389e9326a22497bf38",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "query",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "api_token",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1"
+		},
+		{
+			"key": "BASE NOTES PATCH",
+			"value": "{baseUrl}"
+		},
+		{
+			"key": "BASE TOKEN",
+			"value": "{{BASETOKEN}}"
+		},
+		{
+			"key": "BASE NOTES TOKEN",
+			"value": "b30ca93d0a7ebe389e9326a22497bf38"
+		},
+		{
+			"key": "BASE",
+			"value": "{{baseUrl}}"
+		},
+		{
+			"key": "BASEURL",
+			"value": "https://cerebrumhubcrmlite.bubbleapps.io"
+		},
+		{
+			"key": "BASEnotes",
+			"value": "https://cerebrumhubcrmlite.bubbleapps.io/api/1.1"
+		},
+		{
+			"key": "authToken",
+			"value": "{{BASE TOKEN}}"
+		}
+	]
+}

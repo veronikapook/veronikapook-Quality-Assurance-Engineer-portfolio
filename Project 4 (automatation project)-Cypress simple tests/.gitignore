@@ -1,0 +1,11 @@
+/node_modules
+.idea
+.vs/
+cypress_simple_tests/.vs
+/allure-report
+/allure-results
+/cypress/videos/*.mp4
+/cypress/screenshots/*
+cypress/e2e/registration_form_2_solutions.cy.js
+cypress/e2e/registration_form_1_test_solutions.cy.js
+cypress/e2e/registration_form_3_solutions.cy.js

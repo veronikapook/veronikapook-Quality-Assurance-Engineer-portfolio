@@ -1,0 +1,1453 @@
+Date: Mon, 1 Jul 2024 07:28:33 +0000 (UTC)
+Message-ID: <1809180923.3.1719818913216@38578f0b71c8>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1661601282.1719818913216"
+
+------=_Part_2_1661601282.1719818913216
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>8. USER LISTS (Internal Clubs) (UC5)- Mark T=C5=A1ubarov, Nikita=
+ Novinkin, Roman Sobolenko Solar, Veronika Pook</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>8. USER LISTS (Internal Clubs) (UC5)- Mark T=C5=A1ubarov, Nikita No=
+vinkin, Roman Sobolenko Solar, Veronika Pook</h1>
+    <div class=3D"Section1">
+        <p>member to<a class=3D"confluence-userlink user-mention" data-acco=
+unt-id=3D"712020:7082e5f1-c97e-477d-b316-30ee6bb1fdf2" href=3D"https://cere=
+brumhubstudents.atlassian.net/wiki/people/712020:7082e5f1-c97e-477d-b316-30=
+ee6bb1fdf2?ref=3Dconfluence" target=3D"_blank" data-linked-resource-id=3D"6=
+18201187" data-linked-resource-version=3D"1" data-linked-resource-type=3D"u=
+serinfo" data-base-url=3D"https://cerebrumhubstudents.atlassian.net/wiki">M=
+ark T=C5=A1ubarov</a></p>
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"712020:=
+a348005c-dc5a-4240-b4c0-0743b766516e" href=3D"https://cerebrumhubstudents.a=
+tlassian.net/wiki/people/712020:a348005c-dc5a-4240-b4c0-0743b766516e?ref=3D=
+confluence" target=3D"_blank" data-linked-resource-id=3D"618102821" data-li=
+nked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-bas=
+e-url=3D"https://cerebrumhubstudents.atlassian.net/wiki">Nikita Novinkins</=
+a></p>
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"712020:=
+df4555e1-151b-424b-85a5-e1b14787c532" href=3D"https://cerebrumhubstudents.a=
+tlassian.net/wiki/people/712020:df4555e1-151b-424b-85a5-e1b14787c532?ref=3D=
+confluence" target=3D"_blank" data-linked-resource-id=3D"612139020" data-li=
+nked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-bas=
+e-url=3D"https://cerebrumhubstudents.atlassian.net/wiki">Roman Sobolenko So=
+lar</a></p>
+<p><a class=3D"confluence-userlink user-mention current-user-mention" data-=
+account-id=3D"712020:951b2510-efe9-47cf-9060-ca2c1736d313" href=3D"https://=
+cerebrumhubstudents.atlassian.net/wiki/people/712020:951b2510-efe9-47cf-906=
+0-ca2c1736d313?ref=3Dconfluence" target=3D"_blank" data-linked-resource-id=
+=3D"618201115" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://cerebrumhubstudents.atlassian.net/wi=
+ki">Veronika Pook</a></p>
+<p></p>
+<p><strong>COMPANY COLLABORATION APP</strong> <a class=3D"external-link" da=
+ta-card-appearance=3D"inline" href=3D"https://apps.fliplet.com/cerebrum-hub=
+-my-directory-v-4-0-3-fglxrqzz/groups-rcr5?dynamicListPrefilterColumn=3DTyp=
+e&amp;dynamicListPrefilterValue=3DDepartment&amp;dynamicListPrefilterLogic=
+=3D%3D%3D" rel=3D"nofollow">https://apps.fliplet.com/cerebrum-hub-my-direct=
+ory-v-4-0-3-fglxrqzz/groups-rcr5?dynamicListPrefilterColumn=3DType&amp;dyna=
+micListPrefilterValue=3DDepartment&amp;dynamicListPrefilterLogic=3D%3D%3D</=
+a> &nbsp;Version: 4.0.3</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0c=
+c07c87-aa95-42f8-a68a-0ba27b2b4d05" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p>&nbsp;</p></th>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p style=3D"text-align: center;"><strong>User</strong></p></th>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p style=3D"text-align: center;"><strong>Admin</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Email:</strong></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_user@email.com" rel=3D"n=
+ofollow">team6_user@email.com</a></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_admin@ebay.com" rel=3D"n=
+ofollow">team6_admin@ebay.com</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Password:</strong></p></td>
+<td class=3D"confluenceTd">
+<p>user</p></td>
+<td class=3D"confluenceTd">
+<p>admin</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-8.USERLISTS(InternalClubs)(UC5)-MarkT=C5=A1ubarov,NikitaNovink=
+in,RomanSobolenkoSolar,VeronikaPook-8.1Seeingalluserlists-MarkT=C5=A1ubarov=
+(tester:Nikita)">8.1 Seeing all user lists- Mark T=C5=A1ubarov (tester: Nik=
+ita)</h1>
+<p><strong>Role: </strong>Every authenticated user</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7c=
+b0686a-bc5a-477b-b97b-002cf5cb110d" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.1.1 User lists</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that every user can see a list of all <strong>User Lists</strong=
+> under the =E2=80=9CUser lists=E2=80=9D tab in the menu.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the User Lists page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check, that the user can see the <strong>list</strong> of all User Lists=
+</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The user can see the list of all User Lists</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"73=
+0b2389-d34b-4099-a451-daf2bad73dbd" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.1.2 Typos and not working buttons</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that User lists page does not have any misspelled words and ever=
+y button behaves correctly as expected.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on User Lists page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Typos</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check for typos on User lists page.</p></li>
+<li>
+<p>Verify, that there are no non-functioning buttons.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>No typos has been found.</p></li>
+<li>
+<p>Every button is working properly as expected.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"42=
+56fc8d-13df-464e-a460-af0c3ee4acee" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.1.3 User Lists information</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the user can see the list of all User Lists together with in=
+formation about List name, owner name and type.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on User Lists page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Information</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check the list of all User Lists</p></li>
+<li>
+<p>Control the information shown</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>All User Lists is shown</p></li>
+<li>
+<p>The User List shows following information:<br>
+List name<br>
+List owner name<br>
+List type (Public or Private)</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-234"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-234" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-234</a> - <span class=3D"summary">8.1.=
+3 User Lists information</span> <span class=3D"aui-lozenge aui-lozenge-subt=
+le aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </=
+span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f6=
+b3edfb-d621-440c-aa85-73c6ab98df24" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.1.4 Additional Information about the list</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that the user can find more information about the list by clicki=
+ng on it.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on User Lists page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Additional Information</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on any User List</p></li>
+<li>
+<p>Check the additional information</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Any User List is clickable and opens with additional information</p></li=
+>
+<li>
+<p>Additional information shows:<br>
+List name<br>
+List owner name<br>
+List type (Public or Private)<br>
+List members (their names)</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4e=
+cb31f4-a7dd-4f29-b9f2-77b8fbd66600" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.1.5 Sorting the List name</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the list of User lists must be sorted by the List name field=
+ in an alphabetical order.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on User Lists page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Sorting</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check ,that User Lists page is sorted by the List name field an alphabet=
+ical order</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The list is sorted in an alphabetical order</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-235"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-235" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-235</a> - <span class=3D"summary">8.1.=
+5 Sorting the List name</span> <span class=3D"aui-lozenge aui-lozenge-subtl=
+e aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </s=
+pan></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"17=
+3d7910-2b4f-4568-81ab-5b7d568b12a4" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.1.6 Searching by name</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the user can search user lists by their names.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on User Lists page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Searching</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Go to the <strong>search bar</strong></p></li>
+<li>
+<p>Type desired user list (team, <strong>for example</strong>)</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The <strong>search bar</strong> is present and user can type there</p></=
+li>
+<li>
+<p>Desired user lists are shown searched by their names</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"03=
+478f3f-ab7c-4e9c-a75a-4b0d160c5c01" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.1.7 Filtering User Lists</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the user can filter user lists by =E2=80=9CList type=E2=80=
+=9D and =E2=80=9CList owner name=E2=80=9D.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on User Lists page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Filtering</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on Filtering icon near Search bar</p></li>
+<li>
+<p>Check filtering options</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Filtering icon is visible and user can click on it</p></li>
+<li>
+<p>The user can filter user lists by <strong>=E2=80=9CList type=E2=80=9D</s=
+trong> and <strong>=E2=80=9CList owner name=E2=80=9D</strong></p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-8.USERLISTS(InternalClubs)(UC5)-MarkT=C5=A1ubarov,NikitaNovink=
+in,RomanSobolenkoSolar,VeronikaPook-8.2Creatinganewuserlist-VeronikaPook(te=
+ster:Mark)">8.2 Creating a new user list- Veronika Pook (tester: Mark)</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1c=
+cb9728-2675-4915-8b22-81c0bf3c7082" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.2.1 Initiating new user list</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that every authenticated user is be able to initiate adding new U=
+ser List from the =E2=80=9CUser lists=E2=80=9D tab in the menu.</p>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the User Lists page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on <strong>=E2=80=9C+=E2=80=9D button</strong> (down, right corner=
+).</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E2=80=9C+=E2=80=9D button is clickable and user is directed to <strong>=
+Create list </strong>page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ab=
+b870f6-615d-4089-bd5e-c351daf70482" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.2.2 Creating new user list</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Verify that =E2=80=9CList name=E2=80=9D text field exists; it is marked =
+with asterisk (*) indicating it to be a mandatory field and the field can b=
+e filled.</p></li>
+<li>
+<p>Check system behavior when more than 50 symbols are entered to List name=
+ field.</p></li>
+<li>
+<p>Verify that List type - mandatory drop down with options =E2=80=9CPublic=
+=E2=80=9D or =E2=80=9CPrivate=E2=80=9D exists and options are clickable.</p=
+></li>
+<li>
+<p>Verify that List owner name is automatically added to the created list f=
+rom browser session.</p></li>
+</ol>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the Create List page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Crafting</p></li>
+<li>
+<p>CraftingEffectiveTestCases:APracticalGuideForADummy</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check that <strong>List name</strong> text field exists.</p></li>
+<li>
+<p>Check that <strong>List name</strong> is marked with asterisk <strong>(*=
+) </strong>indicating it to be a mandatory field.</p></li>
+<li>
+<p>Check that <strong>List type</strong>: drop down with options =E2=80=9CP=
+ublic=E2=80=9D or =E2=80=9CPrivate=E2=80=9D exists.</p></li>
+<li>
+<p>Check that =E2=80=9CPublic=E2=80=9D and =E2=80=9CPrivate=E2=80=9D are cl=
+ickable.</p></li>
+<li>
+<p>Check that <strong>List type</strong> is marked with asterisk <strong>(*=
+) </strong>indicating it to be a mandatory field.</p></li>
+<li>
+<p>Enter text- <u>Crafting</u>- in the <strong>List name</strong> field.</p=
+></li>
+<li>
+<p>Enter text- <u>CraftingEffectiveTestCases:APracticalGuideForADummy</u>- =
+to the field (51 characters).</p></li>
+<li>
+<p>Click <strong>Save and add</strong> button.</p></li>
+</ol>
+<p><em>Proceed with step no 9. if the system gi<u>ves</u> a warning message=
+ and user stays on Create list page</em>. <em>Otherwise skip step 9.</em></=
+p>
+<ol start=3D"9">
+<li>
+<p>Enter text- CraftingEffectiveTestCases:ApracticalGuide- (42 characters) =
+click <strong>Save and add </strong>button.</p></li>
+<li>
+<p>Look up the newly created list from <strong>all User lists</strong>. Ver=
+ify that <strong>List owner name</strong> was automatically added from brow=
+ser session.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>List name text field exists.</p></li>
+<li>
+<p>Asterisk (*) exists.</p></li>
+<li>
+<p>List type dropdown menu with options =E2=80=9CPrivate=E2=80=9D and =E2=
+=80=9CPublic=E2=80=9D exists.</p></li>
+<li>
+<p>=E2=80=9CPublic=E2=80=9D and =E2=80=9CPrivate=E2=80=9D are clickable.</p=
+></li>
+<li>
+<p>Asterisk (*) exists.</p></li>
+<li>
+<p>Input can be made to the List name field.</p></li>
+<li>
+<p>Text can be added.</p></li>
+<li>
+<p>Save and add button is clickable.</p></li>
+<li>
+<p>The user must see a notification after adding a new user list - <strong>=
+=E2=80=9CThe user list was successfully created</strong>=E2=80=9D and be re=
+directed back to the page with all User lists.</p></li>
+<li>
+<p>List owner name (email) is visible.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED: <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D=
+"T11CCP-229"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T=
+11CCP-229" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cere=
+brumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuety=
+pe/avatar/10303?size=3Dmedium">T11CCP-229</a> - <span class=3D"summary">8.2=
+.2 Creating new user list</span> <span class=3D"aui-lozenge aui-lozenge-sub=
+tle aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> <=
+/span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"49=
+9e2de8-5f11-43ac-b86a-c0984023371b" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.2.3 Creating new User List with partial information</strong></=
+p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure that new list cannot be created when field requirements are not m=
+et.</p>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the User Lists page.</p></li>
+<li>
+<p>The User has initiated Create list.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Leave mandatory field- <strong>List name</strong>- <u>unfilled</u>; don=
+=E2=80=99t choose any <strong>List type</strong> . Click <strong>Save and a=
+dd </strong>button.</p></li>
+<li>
+<p>Leave mandatory field- <strong>List name</strong>- <u>unfilled</u>; choo=
+se =E2=80=9CPublic=E2=80=9D from mandatory field <strong>List type</strong>=
+ . Click <strong>Save and add </strong>button.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>An error message- "<strong>Field is required</strong>"- is displayed.</p=
+></li>
+<li>
+<p>An error message- "<strong>Field is required</strong>"- is displayed.</p=
+></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-229"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-229" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-229</a> - <span class=3D"summary">8.2.=
+2 Creating new user list</span> <span class=3D"aui-lozenge aui-lozenge-subt=
+le aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </=
+span> List type is missing</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-8.USERLISTS(InternalClubs)(UC5)-MarkT=C5=A1ubarov,NikitaNovink=
+in,RomanSobolenkoSolar,VeronikaPook-8.3Deletingauserlist-RomanSobolenkoSola=
+r(tester:Veronika)">8.3 Deleting a user list- Roman Sobolenko Solar (tester=
+: Veronika)</h1>
+<p><strong>Role: </strong>Owner of the list</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"77=
+e212b2-5288-4c89-98e0-4eb5d73c54e6" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.3 Deleting a user list</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the list owner can delete a user list.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The list owner is logged in and has access to the Directory view.<br>
+New event has to be made.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<p>1. Navigate to =E2=80=9CUser Lists=E2=80=9D on the top menu.<br>
+2. Click on any random user list.<br>
+3. Press =E2=80=9CDelete=E2=80=9D.</p>
+<p>4. Press =E2=80=9CConfirm=E2=80=9D.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<p>1. User lists page exists and opens.</p>
+<p>2. Clicking on any random user lists opens it=E2=80=99s detailed view</p=
+>
+<p>3. The =E2=80=9CDelete=E2=80=9D button exists in the detailed user list =
+view</p>
+<p>3. The =E2=80=9CDelete=E2=80=9D button when clicked brings up =E2=80=9CC=
+onfirm=E2=80=9D button</p>
+<p>4. The =E2=80=9CConfirm=E2=80=9D button when clicked deletes the user li=
+st</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h1 id=3D"id-8.USERLISTS(InternalClubs)(UC5)-MarkT=C5=A1ubarov,NikitaNovink=
+in,RomanSobolenkoSolar,VeronikaPook-8.4Addingmemberstothelist-NikitaNovinki=
+n(tester:Roman)">8.4 Adding members to the list- Nikita Novinkin (tester: R=
+oman)</h1>
+<p><strong>Role: </strong>Owner of the list</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"21=
+b1904d-01c1-4845-a2ce-d0902bfddd9a" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.4.1 Add a Member to a List</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the list owner can add a user to a list.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The list owner is logged in and has access to the Directory view.</p></t=
+d>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>A specific user from the Directory view</p></li>
+<li>
+<p>A list where the user is not already added.</p></li>
+</ul></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Directory view.</p></li>
+<li>
+<p>Locate the specific user to add and click on their details.</p></li>
+<li>
+<p>In the details view, click the "<strong>Add to list</strong>" button.</p=
+></li>
+<li>
+<p>A list of User Lists where the owner is the creator is displayed.</p></l=
+i>
+<li>
+<p>Locate the list to which the owner wants to add the user.</p></li>
+<li>
+<p>Click the "<strong>Add</strong>" button next to the lists details</p></l=
+i>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Directory view is navigated without any errors.</p></li>
+<li>
+<p>User details page is displayed correctly, showing the user's information=
+.</p></li>
+<li>
+<p>"<strong>Add to list</strong>" button is visible and clickable.</p></li>
+<li>
+<p>List of User Lists is displayed correctly.</p></li>
+<li>
+<p>List is present in the view.</p></li>
+<li>
+<p>User is successfully added to the list, and the button changes from "<st=
+rong>Add</strong>" to "<strong>Remove</strong>."</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"85=
+2cfb7b-a64c-46b8-a0f5-726218554eb2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.4.2 Remove a Member from a List</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the owner can remove a user from a list.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The owner of the list is logged in and has access to the Directory view.=
+</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>A specific user who is already added to a list.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Directory view.</p></li>
+<li>
+<p>Locate the specific user to remove and click on their details.</p></li>
+<li>
+<p>In the details view, click the "<strong>Add to list</strong>" button.</p=
+></li>
+<li>
+<p>A list of User Lists where the owner is the creator is displayed.</p></l=
+i>
+<li>
+<p>Locate the list from which the owner wants to remove the user.</p></li>
+<li>
+<p>Click the "<strong>Remove</strong>" button next to the list.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Directory view is navigated without any errors.</p></li>
+<li>
+<p>User details page is displayed correctly, showing the user's information=
+.</p></li>
+<li>
+<p>"<strong>Add to list</strong>" button is visible and clickable.</p></li>
+<li>
+<p>List of User Lists is displayed correctly.</p></li>
+<li>
+<p>List is present in the view.</p></li>
+<li>
+<p>User is successfully removed from the list, and the button changes from =
+"<strong>Remove</strong>" to "<strong>Add.</strong>"</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"81=
+c5354e-a0d8-45a3-9285-d1a5c6f2d4ab" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>8.4.3 Add Member to Multiple Lists</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the owner can add the same user to multiple lists.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The owner is logged in and has access to the Directory view.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>A specific user from the Directory view and multiple lists where the use=
+r is not already added.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Directory view.</p></li>
+<li>
+<p>Locate the specific user to add and click on their details.</p></li>
+<li>
+<p>In the details view, click the "<strong>Add to list</strong>" button.</p=
+></li>
+<li>
+<p>A list of User Lists where the owner is the creator is displayed.</p></l=
+i>
+<li>
+<p>Add the user to multiple lists by clicking the "<strong>Add</strong>" bu=
+tton next to each list.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Directory view is navigated without any errors.</p></li>
+<li>
+<p>User details page is displayed correctly, showing the user's information=
+.</p></li>
+<li>
+<p>"<strong>Add to list</strong>" button is visible and clickable.</p></li>
+<li>
+<p>List of User Lists is displayed correctly.</p></li>
+<li>
+<p>User is successfully added to multiple lists. The button changes from "<=
+strong>Add</strong>" to "<strong>Remove</strong>" for each list.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_2_1661601282.1719818913216--

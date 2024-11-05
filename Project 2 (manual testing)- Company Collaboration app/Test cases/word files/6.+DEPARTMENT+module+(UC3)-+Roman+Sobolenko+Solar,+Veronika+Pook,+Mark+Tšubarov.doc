@@ -1,0 +1,2056 @@
+Date: Mon, 1 Jul 2024 07:25:54 +0000 (UTC)
+Message-ID: <917542430.25.1719818754835@e52e908b5849>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_964129644.1719818754834"
+
+------=_Part_24_964129644.1719818754834
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>6. DEPARTMENT module (UC3)- Roman Sobolenko Solar, Veronika Pook=
+, Mark T=C5=A1ubarov</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>6. DEPARTMENT module (UC3)- Roman Sobolenko Solar, Veronika Pook, M=
+ark T=C5=A1ubarov</h1>
+    <div class=3D"Section1">
+        <p><br><strong>COMPANY COLLABORATION APP</strong> <a class=3D"exter=
+nal-link" data-card-appearance=3D"inline" href=3D"https://apps.fliplet.com/=
+cerebrum-hub-my-directory-v-4-0-3-fglxrqzz/groups-rcr5?dynamicListPrefilter=
+Column=3DType&amp;dynamicListPrefilterValue=3DDepartment&amp;dynamicListPre=
+filterLogic=3D%3D%3D" rel=3D"nofollow">https://apps.fliplet.com/cerebrum-hu=
+b-my-directory-v-4-0-3-fglxrqzz/groups-rcr5?dynamicListPrefilterColumn=3DTy=
+pe&amp;dynamicListPrefilterValue=3DDepartment&amp;dynamicListPrefilterLogic=
+=3D%3D%3D</a> &nbsp;Version: 4.0.3</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3d=
+18a508-39c8-4f1b-bce2-b2431799457f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p>&nbsp;</p></th>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p style=3D"text-align: center;"><strong>User</strong></p></th>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p style=3D"text-align: center;"><strong>Admin</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Email:</strong></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_user@email.com" rel=3D"n=
+ofollow">team6_user@email.com</a></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_admin@ebay.com" rel=3D"n=
+ofollow">team6_admin@ebay.com</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Password:</strong></p></td>
+<td class=3D"confluenceTd">
+<p>user</p></td>
+<td class=3D"confluenceTd">
+<p>admin</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-6.DEPARTMENTmodule(UC3)-RomanSobolenkoSolar,VeronikaPook,MarkT=
+=C5=A1ubarov-6.1.Departmentspage-VeronikaPook(tester:Nikita)">6.1. Departme=
+nts page- Veronika Pook (tester: Nikita)</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7c=
+b0686a-bc5a-477b-b97b-002cf5cb110d" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.1.1 List of departments</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the user sees a list of all departments and that it is sorte=
+d by the department name by default (ascending).</p>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the Departments page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check if the user can see the <strong>list</strong> of all departments.<=
+/p></li>
+<li>
+<p>Make sure the list is <strong>sorted </strong>by department name (ascend=
+ing).</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The user can see a list of all departments.</p></li>
+<li>
+<p>Departments are sorted by name (ascending).</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"32=
+8d76df-0429-497d-b6e5-e78af1e8d393" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.1.2 Finding departments using text search</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that user is able to find a department using text search by full =
+or partial match.</p>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the Departments page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check that text search field is present and you can type there.</p></li>
+<li>
+<p>Type =E2=80=9Cresources=E2=80=9D. Press <strong>Search button</strong>/p=
+ress <strong>Enter </strong>on keyboard.</p></li>
+<li>
+<p>Clear search filter by clicking on <strong>=E2=80=9Cx=E2=80=9D</strong> =
+button next to the search word.</p></li>
+<li>
+<p>Type =E2=80=9CHuman resources=E2=80=9D. Press <strong>Search button</str=
+ong>/press <strong>Enter</strong> on keyboard.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Text search field is present and user can type there.</p></li>
+<li>
+<p>Only Human resources department is displayed =E2=86=92 partial text sear=
+ch works.</p></li>
+<li>
+<p>User can see the list of all departments.</p></li>
+<li>
+<p>Only Human resources department is displayed =E2=86=92 full text search =
+works.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-237"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-237" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-237</a> - <span class=3D"summary">6.1.=
+2 Finding departments using text search</span> <span class=3D"aui-lozenge a=
+ui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">=
+To Do</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"42=
+43c5c1-28d0-45af-9266-3c79bef7b329" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.1.3 Filter the list of departments by the Parent departments</=
+strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Verify that there is a complete list of Parent departments (Human Resour=
+ces, Information technology, Marketing, Operations, Management, Sales).</p>=
+</li>
+<li>
+<p>Verify that user is able to filter the list of departments by the Parent=
+ Departments (One or multiple).</p></li>
+</ol>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the Departments page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on =E2=80=9CParent group=E2=80=9C in the =E2=80=9CFilter by=E2=80=
+=9D menu.</p></li>
+<li>
+<p>Verify that all the required <strong>Parent departments</strong> are on =
+the list: Human Resources, Information technology, Marketing, Operations, M=
+anagement, Sales</p></li>
+<li>
+<p>Click on <u>Human Resources</u>.</p></li>
+<li>
+<p>Click on <u>Marketing.</u></p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>List of Parent departments open.</p></li>
+<li>
+<p>User can see the list of all the required Parent departments.</p></li>
+<li>
+<p>User can see the Parent department- Human Resources- and all of its sub-=
+departments.</p></li>
+<li>
+<p>Marketing Parent department with all of its sub-departments is displayed=
+ alongside the Human Resources department and its sub-departments.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-238"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-238" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-238</a> - <span class=3D"summary">6.1.=
+3 Filter the list of departments by the Parent departments</span> <span cla=
+ss=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single=
+-issue-export-pdf">To Do</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f9=
+070a2f-38e8-4c10-a27c-2f0fb84c0455" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.1.4 Filtering departments by Offices</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Verify that there is a complete list of offices (London, New York).</p><=
+/li>
+<li>
+<p>Verify that the user is able to filter the list of departments by Office=
+s.</p></li>
+</ol>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the Departments page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on <strong>Offices</strong> in the <strong>Filter by</strong> menu=
+.</p></li>
+<li>
+<p>Verify that all the required Offices are on the list: London, New York.<=
+/p></li>
+<li>
+<p>Click on <strong>London.</strong></p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>List of Offices open.</p></li>
+<li>
+<p>User can see the list of all the required offices.</p></li>
+<li>
+<p>List of all the offices located in London is displayed.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d0=
+8e3ea9-9003-43ca-9312-0a3612404748" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.1.5 Filtering by the department contact</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure users can filter department lists by selecting contact names link=
+ed to each department.</p>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the Departments page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on <strong>Contact</strong> in the <strong>Filter by</strong> menu=
+.</p></li>
+<li>
+<p>Click on any <strong>Name.</strong></p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>List of Names open.</p></li>
+<li>
+<p>User can see all departments (one or more) that are linked to this emplo=
+yee's name.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-228"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-228" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-228</a> - <span class=3D"summary">6.1.=
+5 Filtering by the department contact</span> <span class=3D"aui-lozenge aui=
+-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">To=
+ Do</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fa=
+a17904-22b0-4cb9-bbb0-d14e17b0a1e5" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.1.6 Bookmarking departments</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check that function- bookmarking departments- works.</p></li>
+<li>
+<p>Check that you can apply filtering to Bookmarked departments.</p></li>
+</ol>
+<p>Roles: Administrator and User</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on the Departments page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on Bookmark icon on the first <u>three</u> departments on the Depa=
+rtment list.</p></li>
+<li>
+<p>Click on <strong>Bookmark</strong> icon that is next to the search bar.<=
+/p></li>
+<li>
+<p>Click on Click on <strong>Offices</strong> in the <strong>Filter by</str=
+ong> menu.</p></li>
+<li>
+<p>Click on <strong>London</strong>.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Bookmark icon is clickable. Icon chances color: light grey =E2=86=92 dar=
+k grey.</p></li>
+<li>
+<p>Bookmark icon next to the search bar is clickable. Icon chances color: l=
+ight grey =E2=86=92 dark grey. List of previously Bookmarked departments is=
+ displayed.</p></li>
+<li>
+<p>List of Offices open.</p></li>
+<li>
+<p>Bookmarked offices that are located in London are displayed.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-6.DEPARTMENTmodule(UC3)-RomanSobolenkoSolar,VeronikaPook,MarkT=
+=C5=A1ubarov-6.2.Departmentinformation-RomanSobolenkoSolar(tester:Veronika)=
+">6.2. Department information- Roman Sobolenko Solar (tester: Veronika)</h1=
+>
+<p><strong>Role</strong>: Every authenticated user</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a5=
+54da65-f988-4e35-a946-1fa154133130" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>6.2.1 Detailed information for field with with data</strong></p>=
+</th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>The user must be able to open and see the detailed information of any de=
+partment.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to =E2=80=9CDepartments=E2=80=9D in the top menu</p></li>
+<li>
+<p>Click on any random department.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The Departments page opens and has some departments in it</p></li>
+<li>
+<p>Details info about department is displayed after left-clicking on it</p>=
+</li>
+<li>
+<p>The pop up windows has the following information:</p>
+<ul>
+<li>
+<p>Name</p></li>
+<li>
+<p>Description</p></li>
+<li>
+<p>Parent department/group - if this department is a sub-department.</p></l=
+i>
+<li>
+<p>List of Key contacts - employees of the company.</p>
+<ul>
+<li>
+<p>The user must be able to go to the employee details view by clicking on =
+it.</p></li>
+</ul></li>
+<li>
+<p>Contact email</p></li>
+<li>
+<p>Contact details</p></li>
+<li>
+<p>Office</p></li>
+<li>
+<p>Additional documents</p></li>
+<li>
+<p>Links specific for this department</p></li>
+<li>
+<p>Key dates - like meeting schedule, milestones, etc.</p></li>
+</ul></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p><strong>PASSED</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"46=
+25cd4b-80b5-4233-a4bc-8a1847945e98" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>6.2.2 Detailed information for no-data fields</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>The user must be able to open and see the detailed information of any de=
+partment.</p>
+<p>The user must see only those fields that are not empty, to reduce the sp=
+ace.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to =E2=80=9CDepartments=E2=80=9D in the top menu</p></li>
+<li>
+<p>Click on any random department.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The Departments page opens and has some departments in it</p></li>
+<li>
+<p>After clicking on any random department the pop up windows does not show=
+ any empty/no-data fields.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p><strong>PASSED</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-6.DEPARTMENTmodule(UC3)-RomanSobolenkoSolar,VeronikaPook,MarkT=
+=C5=A1ubarov-6.3.Managingdepartmentinformation-MarkT=C5=A1ubarov(tester:Rom=
+an)">6.3. Managing department information - Mark T=C5=A1ubarov (tester: Rom=
+an)</h1>
+<p><strong>Role</strong>: Administrator</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"29=
+d3e777-f751-4bd0-b3bc-4ad49bb5cecc" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.1 Initiating editing department information</strong></p></td=
+>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that the administrator can initiate editing of the department in=
+formation from it=E2=80=99s details view</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Departments page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on any department</p></li>
+<li>
+<p>Click on =E2=80=9CEdit=E2=80=9D button</p></li>
+<li>
+<p>Check that the administrator is redirected to the Edit Group page</p></l=
+i>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Departments are visible and clickable</p></li>
+<li>
+<p>=E2=80=9CEdit=E2=80=9D button is visible and clickable</p></li>
+<li>
+<p>The administrator is redirected to the Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"31=
+a87ed4-39d2-4ae5-8ae2-02e3a820df63" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>6.3.2 Typos and not working buttons</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that Edit Group page does not have any misspelled words and ever=
+y button behaves correctly as expected.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;Typos</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check for typos on Departments module page.</p></li>
+<li>
+<p>Verify, that there are no non-functioning buttons.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>No typos has been found.</p></li>
+<li>
+<p>Every button is working properly as expected.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e8=
+3bcf41-21df-46ab-9e84-b1c86d03b822" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.3 Editing department information</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the administrator can add or edit information about any depa=
+rtment.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Editing Name, Description, Parent department</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check, that Name is mandatory text field</p></li>
+<li>
+<p>Check, that Description is optional text area</p></li>
+<li>
+<p>Check, that Parent department is a checkbox that indicates is this depar=
+tment parent department or sub-department.</p></li>
+<li>
+<p>Ensure, that if it is sub-department, then parent department must be cho=
+sen</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Mandatory name text field is present and the administrator can type ther=
+e</p></li>
+<li>
+<p>Optional Description text area is present and the administrator can type=
+ there</p></li>
+<li>
+<p>Parent department is visible and it is a checkbox that indicates if depa=
+rtment is parent or sub-.</p></li>
+<li>
+<p>For sub-departments parent department is chosen.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5b=
+b753e8-1cf6-4422-a097-522064074ccf" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.4 Key contact name and role</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that the administrator can select contact name and role by choos=
+ing select search from all employees of the company.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Key contact name and role</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Department =E2=86=92 Edit =E2=86=92 Key contacts<br>
+Check, that =E2=80=9CContact name=E2=80=9D is the select search from all em=
+ployees of the company</p></li>
+<li>
+<p>Verify, that the administrator can add additional role to every chosen u=
+ser</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E2=80=9CContact name=E2=80=9D is visible, clickable and it is the selec=
+t search</p></li>
+<li>
+<p>Additional role to every chosen user visible and available for adding</p=
+></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"90=
+90dc50-48b9-43ac-b820-3a90e9361797" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 569.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.5 Contact email</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that <strong>Contact email</strong> is optional text field.</p><=
+/td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Email text field</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check, that Contact email text field is optional</p></li>
+<li>
+<p>Ensure, that Contact email have description</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Optional Email text field is present and the administrator can type ther=
+e</p></li>
+<li>
+<p>Contact email description is present and have following text: =E2=80=9CS=
+et a group email if you have one=E2=80=9D</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7b=
+3404ed-c04c-49d5-9ba8-f086581bb616" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.6 Contact details</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify, that the administrator can add contact details</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Contact details</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check, that =E2=80=9C<strong>Contact details</strong>=E2=80=9D is option=
+al text area</p></li>
+<li>
+<p>Verify, that =E2=80=9C<strong>Contact details</strong>=E2=80=9D have des=
+cription</p></li>
+<li>
+<p>Ensure, that =E2=80=9C<strong>Contact details</strong>=E2=80=9D have pla=
+ceholder</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E2=80=9C<strong>Contact details</strong>=E2=80=9D is visible and it is =
+optional text area</p></li>
+<li>
+<p>=E2=80=9C<strong>Contact details</strong>=E2=80=9D description is visibl=
+e and includes =E2=80=9C<strong>teams, jabber, slack or other contact detai=
+ls</strong>=E2=80=9D text</p></li>
+<li>
+<p><strong>Placeholder</strong> is present and the administrator can type t=
+here</p></li>
+<li>
+<p><strong>Placeholder</strong> have following text:<br>
+MS Teams: &lt;u&gt;Group link&lt;/u&gt; <br>
+Jabber: &lt;u&gt;Chat link&lt;/u&gt; <br>
+Slack: &lt;u&gt;Channel link&lt;/u&gt;</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"43=
+70af34-ac43-4916-a12d-e66bceb82196" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.7 Offices</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that Offices have ability to link department to one specific off=
+ice. The list of all offices must be shown to the user.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Offices</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check, that the administrator can see <strong>=E2=80=9COffices=E2=80=9D<=
+/strong> field</p></li>
+<li>
+<p><strong>=E2=80=9COffices=E2=80=9D</strong> have description</p></li>
+<li>
+<p>Ensure, that the administrator can link department</p></li>
+<li>
+<p>Verify, that the list of all offices must be shown to the administrator<=
+/p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The administrator can see <strong>=E2=80=9COffices=E2=80=9D</strong> fie=
+ld</p></li>
+<li>
+<p>=E2=80=9COffices=E2=80=9D <strong>description</strong> is visible and in=
+cludes: =E2=80=9CLink relevant offices if useful=E2=80=9D text</p></li>
+<li>
+<p>The field is clickable and the administrator can link department</p></li=
+>
+<li>
+<p>The administrator can see the list of all offices</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3c=
+bb4ed6-4d98-4e6f-bc1d-3ea15662a6d2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.8 Uploading additional file</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the administrator can upload additional file</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>File upload</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click =E2=80=9C<strong>+Choose File</strong>=E2=80=9D button</p></li>
+<li>
+<p>Check that the systems allows to upload a file</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E2=80=9C<strong>+Choose File</strong>=E2=80=9D button is clickable</p><=
+/li>
+<li>
+<p>The system allows to upload a file</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"22=
+50ca73-a755-46d8-b3f8-7b654d606ac8" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.9 Exceeding file=E2=80=99s maximum size </strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the administrator cannot upload additional file=E2=80=99s wh=
+ich size exceed 3MB.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>File size</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click =E2=80=9C<strong>+Choose File</strong>=E2=80=9D button</p></li>
+<li>
+<p>Check that the systems allows to upload a file larger than 3 MB</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E2=80=9C<strong>+Choose File</strong>=E2=80=9D button is clickable</p><=
+/li>
+<li>
+<p>The system does not allow to upload a file. Error message: "File size sh=
+ould not exceed 3 MB".</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED. <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D=
+"T11CCP-252"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T=
+11CCP-252" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cere=
+brumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuety=
+pe/avatar/10303?size=3Dmedium">T11CCP-252</a> - <span class=3D"summary">6.3=
+.9 Exceeding file=E2=80=99s maximum size</span> <span class=3D"aui-lozenge =
+aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf"=
+>To Do</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d1=
+aa43b7-27fd-4473-acc7-f1bfd20e8bb1" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.10 File type - text type only</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the administrator can upload additional file in text type.</=
+p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>File type</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click =E2=80=9C<strong>+Choose File</strong>=E2=80=9D button</p></li>
+<li>
+<p>Check that the systems allows to upload only a text type file</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E2=80=9C<strong>+Choose File</strong>=E2=80=9D button is clickable</p><=
+/li>
+<li>
+<p>The system does not allow to upload not a text file type. Error message:=
+ "Incorrect file type=E2=80=9D".</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED. <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D=
+"T11CCP-253"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T=
+11CCP-253" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cere=
+brumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuety=
+pe/avatar/10303?size=3Dmedium">T11CCP-253</a> - <span class=3D"summary">6.3=
+.10 File type - text type only</span> <span class=3D"aui-lozenge aui-lozeng=
+e-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do</sp=
+an> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"20=
+374170-4293-4572-aa5e-5b1579807d78" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.11 Links</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that <strong>=E2=80=9CLinks=E2=80=9D</strong> is optional text ar=
+ea with description and placeholder.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Links</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check, that<strong> =E2=80=9CLinks=E2=80=9D</strong> is optional text ar=
+ea</p></li>
+<li>
+<p>Verify, that <strong>=E2=80=9CLinks=E2=80=9D</strong> have <strong>Descr=
+iption</strong></p></li>
+<li>
+<p>Verify, that <strong>=E2=80=9CLinks=E2=80=9D</strong> have <strong>Place=
+holder</strong></p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Optional<strong> </strong>text area <strong>=E2=80=9CLinks=E2=80=9D</str=
+ong> is present, the administrator can type in Placeholder text area.</p></=
+li>
+<li>
+<p><strong>=E2=80=9CLinks=E2=80=9D</strong> have <strong>Description</stron=
+g> with following text: =E2=80=9CInclude any online links relevant to this =
+group=E2=80=9D</p></li>
+<li>
+<p><strong>=E2=80=9CLinks=E2=80=9D</strong> have <strong>Placeholder </stro=
+ng>with following text: =E2=80=9CIntranet page: <a class=3D"external-link" =
+href=3D"https://intranet/my-group-page" rel=3D"nofollow">https://intranet/m=
+y-group-page</a><br>
+Group meeting minutes: //shared-drive/group/minutes/<br>
+Web site page: <a class=3D"external-link" href=3D"https://example.com/my-gr=
+oup/" rel=3D"nofollow">https://example.com/my-group/</a>=E2=80=9D</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED. <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D=
+"T11CCP-254"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T=
+11CCP-254" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cere=
+brumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuety=
+pe/avatar/10303?size=3Dmedium">T11CCP-254</a> - <span class=3D"summary">Pla=
+ceholders missing</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-=
+lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </span></=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"45=
+b2d633-a908-420b-9602-436e774986d6" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.12 Key dates</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the administrator can add <strong>key dates.</strong></p></t=
+d>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Key dates</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Verify, that <strong>=E2=80=9CKey dates=E2=80=9D</strong> is optional te=
+xt area</p></li>
+<li>
+<p>Check, that <strong>=E2=80=9CKey dates=E2=80=9D</strong> have Descriptio=
+n</p></li>
+<li>
+<p>Ensure, that<strong> =E2=80=9CKey dates=E2=80=9D</strong> have Placehold=
+er</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Optional text area <strong>=E2=80=9CKey dates=E2=80=9D </strong>is prese=
+nt and the administrator can type there</p></li>
+<li>
+<p><strong>=E2=80=9CKey dates=E2=80=9D</strong> have Description with follo=
+wing text: =E2=80=9CEnter the meeting schedule, milestones, delivery dates,=
+ etc=E2=80=9D</p></li>
+<li>
+<p><strong>=E2=80=9CKey dates=E2=80=9D</strong> have Placeholder with follo=
+wing text: =E2=80=9CThis group meets on the 1st Wednesday of every month at=
+ 4 pm ET.=E2=80=9D</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED. <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D=
+"T11CCP-254"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T=
+11CCP-254" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cere=
+brumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuety=
+pe/avatar/10303?size=3Dmedium">T11CCP-254</a> - <span class=3D"summary">Pla=
+ceholders missing</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-=
+lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </span></=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bd=
+0fad4e-d2cd-44a4-a54a-e394de0e0c7d" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.13 Savings the changes</strong></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that the administrator can the changes to publish them for the r=
+est of the company.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct Administrator credentials.</p></li>
+<li>
+<p>The administrator is on Edit Group page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Saving</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on =E2=80=9C<strong>Save</strong>=E2=80=9D button</p></li>
+<li>
+<p>Ensure, that all the edited/added information is saved</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>=E2=80=9C<strong>Save</strong>=E2=80=9D button is visible and clickable<=
+/p></li>
+<li>
+<p>All the edited/added information is saved</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Role</strong>: Every authenticated user</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"18=
+a5b527-d712-4649-a90f-169d1b9e7667" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>Test case ID</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>6.3.14 Observation of the all added/edited information</strong><=
+/p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that the users must see all the added information in the departme=
+nt information view.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Successful login with correct credentials.</p></li>
+<li>
+<p>The user is on Departments page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test data</p></td>
+<td class=3D"confluenceTd">
+<p>Added/edited information</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Choose newly added/edited department by clicking on it</p></li>
+<li>
+<p>Observe all the new information</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Newly added/edited department is visible and clickable</p></li>
+<li>
+<p>All the newly added/edited information is visible</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_24_964129644.1719818754834--

@@ -1,0 +1,847 @@
+Date: Mon, 1 Jul 2024 07:23:51 +0000 (UTC)
+Message-ID: <1583398327.1.1719818631863@38578f0b71c8>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_963541955.1719818631845"
+
+------=_Part_0_963541955.1719818631845
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>4. SELF-REGISTRATION (UC1) - Nikita Novinkins</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>4. SELF-REGISTRATION (UC1) - Nikita Novinkins</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-4.SELF-REGISTRATION(UC1)-NikitaNovinkins-(tester:Mark)=
+">(tester: Mark)</h2>
+<div class=3D"table-wrap">
+<table data-local-id=3D"1bfd8472-ae4b-45be-91d3-07a811a76476" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.1 Initiate Registration Flow</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>This test case verifies that the user can initiate the registration flow=
+ from the login page by clicking on the "Register here" link.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the login page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the login page.</p></li>
+<li>
+<p>Locate the "Register here" link and click on it.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Login page opens without any errors.</p></li>
+<li>
+<p>"Register here" link is clickable, and upon clicking, the registration f=
+orm opens without any errors.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"e880df24-fe69-41bc-b467-f8ac05208286" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.2 - Mandatory Fields Validation</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>This test case verifies that the registration form requires all mandator=
+y fields to be filled in before submission.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the registration form page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>None.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the registration form.</p></li>
+<li>
+<p>Leave one or more mandatory fields blank.</p></li>
+<li>
+<p>Attempt to submit the form.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Registration form opens without any errors.</p></li>
+<li>
+<p>Mandatory fields are present in the form.</p></li>
+<li>
+<p>An error message is displayed indicating that all mandatory fields must =
+be filled in.</p></li>
+<li>
+<p>Form submission is blocked, and the user is required to fill in the miss=
+ing fields.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"10570540-7198-4a31-bde6-d8c45157bcc0" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.3 Password Complexity Validation</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"inline-comment-marker" data-ref=3D"7c938a58-9e0b-42af-b1d=
+d-faf28c241779">This test case verifies that the registration form enforces=
+ password complexity requirements.</span></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the registration form page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>None.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the registration form.</p></li>
+<li>
+<p>Enter a password that doesn't meet complexity requirements (e.g., too sh=
+ort, missing characters).</p></li>
+<li>
+<p>Attempt to submit the form.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Registration form opens without any errors.</p></li>
+<li>
+<p>Password field is present and accepts input.</p></li>
+<li>
+<p>An error message is displayed indicating the password complexity require=
+ments.</p></li>
+<li>
+<p>Form submission is blocked until a valid password is entered.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"e319e11c-abdf-47e6-9a07-cbc8880d456b" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.4 Optional Fields Entry</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>This test case verifies that the user can enter and submit optional fiel=
+ds during the registration process.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the registration form page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>None.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the registration form.</p></li>
+<li>
+<p>Fill in all optional fields in the form.</p></li>
+<li>
+<p>Submit the form.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Registration form opens without any errors.</p></li>
+<li>
+<p>Optional fields are present and accept input.</p></li>
+<li>
+<p>Form is submitted successfully without any errors, and all optional data=
+ is saved.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"0e63e0ea-b48f-4dcc-82e8-afcdeafc08cb" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.5 Profile Picture Upload</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>This test case verifies that the user can upload a profile picture durin=
+g registration, and that size limitations are enforced.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the registration form page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Profile picture within size limit (e.g., 1200x1200px, jpg or png).</p></=
+li>
+<li>
+<p>Profile picture exceeding size limit.</p></li>
+</ul></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the registration form.</p></li>
+<li>
+<p>Attempt to upload a profile picture within the size limit (1200x1200px).=
+</p></li>
+<li>
+<p>Attempt to upload a profile picture that exceeds the size limit.</p></li=
+>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Registration form opens without any errors.</p></li>
+<li>
+<p>Profile picture upload feature is present and functional.</p></li>
+<li>
+<p>Profile picture within the size limit is uploaded successfully.</p></li>
+<li>
+<p>An error message is displayed when trying to upload a picture that excee=
+ds the size limit.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>Failed (accepts more than 1200x1200px)</p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+221"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-22=
+1" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubs=
+tudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avata=
+r/10303?size=3Dmedium">T11CCP-221</a> - <span class=3D"summary">4.5 Self-re=
+gistration profile picture upload</span> <span class=3D"aui-lozenge aui-loz=
+enge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do<=
+/span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"4a9cf292-81eb-41a3-b794-c0d03ec0ebd0" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.6 Data Saved in Registration Submissions</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>This test case verifies that the user data is saved in the "Registration=
+ submissions" after submitting the form.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the registration form page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Valid registration data.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the registration form.</p></li>
+<li>
+<p>Complete the form with valid data.</p></li>
+<li>
+<p>Submit the form.</p></li>
+<li>
+<p>Check the "Registration submissions" to verify if the data is saved.</p>=
+</li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Registration form opens without any errors.</p></li>
+<li>
+<p>User can enter valid data without any errors.</p></li>
+<li>
+<p>Form is submitted successfully without any errors.</p></li>
+<li>
+<p>Data is saved in the "Registration submissions" without discrepancies.</=
+p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"a384e6e4-393d-4581-a782-2f02fe4fbbf2" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.7 Existing Email Validation</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>This test case verifies that the registration form prevents users from u=
+sing an email address that is already registered in the system.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the registration form page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Email address that is already registered in the system.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the registration form.</p></li>
+<li>
+<p>Enter an existing email address in the email field.</p></li>
+<li>
+<p>Attempt to submit the form.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Registration form opens without any errors.</p></li>
+<li>
+<p>Email field accepts input.</p></li>
+<li>
+<p>An error message is displayed indicating that the email address is alrea=
+dy in use.</p></li>
+<li>
+<p>Form submission is blocked until a unique email address is provided.</p>=
+</li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-222"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-222" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-222</a> - <span class=3D"summary">4.7 =
+Existing Email Validation</span> <span class=3D"aui-lozenge aui-lozenge-sub=
+tle aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> <=
+/span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"9f160899-6a90-44c5-bc1b-baed46da4e50" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>4.8 Successful Registration</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>This test case verifies that a user can successfully register using vali=
+d data and meets all requirements.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is on the registration form page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>First name: Valid first name</p></li>
+<li>
+<p>Last name: Valid last name</p></li>
+<li>
+<p>Email: Valid email address</p></li>
+<li>
+<p>Password: Valid password meeting complexity requirements</p></li>
+<li>
+<p>Optional data: Valid data (e.g., title, department, etc.)</p></li>
+<li>
+<p>Profile picture: Valid image within size limit</p></li>
+</ul></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the registration form.</p></li>
+<li>
+<p>Enter all required fields with valid data.</p></li>
+<li>
+<p>Optionally, fill in additional information such as title, department, an=
+d upload a valid profile picture.</p></li>
+<li>
+<p>Submit the form.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected Result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Registration form opens without any errors.</p></li>
+<li>
+<p>User can enter all required data and submit the form without issues.</p>=
+</li>
+<li>
+<p>User can enter all optional data and submit the form without issues.</p>=
+</li>
+<li>
+<p>Form submission is successful, and data is saved in the system.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_0_963541955.1719818631845--

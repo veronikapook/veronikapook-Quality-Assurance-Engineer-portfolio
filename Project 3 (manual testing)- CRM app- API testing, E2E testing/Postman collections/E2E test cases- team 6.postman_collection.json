@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "7586c867-cb39-428c-af7c-72a64deb2502",
+		"name": "E2E test cases- team 6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35083086",
+		"_collection_link": "https://team-6-0013.postman.co/workspace/CRM-Project-Team-6-Workspace~b031da86-b892-4dc6-8116-de0c57ec0e91/collection/35083086-7586c867-cb39-428c-af7c-72a64deb2502?action=share&source=collection_link&creator=35083086"
+	},
+	"item": [
+		{
+			"name": "Tracking Deals on User Dashboard",
+			"item": [
+				{
+					"name": "Get list of Deals Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/obj/deal?UniqueID=1718286329434x323882605729284100",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"obj",
+								"deal"
+							],
+							"query": [
+								{
+									"key": "UniqueID",
+									"value": "1718286329434x323882605729284100"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create a new Deal - min fields set Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"assignee__user\": \"Kevin Kelly\",\n    \"company_name_text\": \"Team6 L5 E2E ONE\",\n    \"deal_value_estimation_number\": 100,\n    \"name_text\": \"Team6 L5 E2E TEST\",\n    \"order_number\": 7,\n    \"status_option_status\": \"Lost\",\n    \"visible_to_list_user\": []\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/obj/deal",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"obj",
+								"deal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "in",
+				"value": "query",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "API Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "b30ca93d0a7ebe389e9326a22497bf38",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

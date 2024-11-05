@@ -1,0 +1,1091 @@
+{
+	"info": {
+		"_postman_id": "fdb6e2f3-fdfe-463e-b611-9171e01641d4",
+		"name": "Veronika_Pook_jira_clone Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35083086"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Get authentication token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"token\", jsonData.authToken);\r",
+									"\r",
+									"pm.test(\"Retrieving project information was successful\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/authentication/guest",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"authentication",
+								"guest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get project id into variable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"project_id\", jsonData.project.id);\r",
+									"pm.globals.set(\"user_id1\", jsonData.project.users[0].id);\r",
+									"pm.globals.set(\"user_id2\", jsonData.project.users[1].id);\r",
+									"pm.globals.set(\"user_id3\", jsonData.project.users[2].id);\r",
+									"\r",
+									"pm.test(\"Retrieving project information was successful\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get current user id into variable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let jsonData = pm.response.json();\r",
+									"pm.globals.set(\"current_user_id\", jsonData.currentUser.id);\r",
+									"\r",
+									"pm.test(\"Retrieving user information was successful\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/currentUser",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"currentUser"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Time tracking: time spent",
+			"item": [
+				{
+					"name": "Create issue (prerequisite)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"//save received response to current test variable\r",
+									"var jsonData = pm.response.json();\r",
+									"\r",
+									"//save certain value from JSON to globals  variable\r",
+									"pm.globals.set(\"issue_id\", jsonData.issue.id);\r",
+									"\r",
+									"pm.test(\"Issue creation was successful\", function () {\r",
+									"    pm.response.to.not.be.error;\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Check that information was saved correctly\", function () {\r",
+									"    pm.expect(jsonData.issue.title).to.eql(\"Issue title\");\r",
+									"    pm.expect(jsonData.issue.type).to.eql(\"task\");\r",
+									"    pm.expect(jsonData.issue.description).to.eql(\"Issue description\");\r",
+									"\r",
+									"    //Validate status and priority\r",
+									"    pm.expect(jsonData.issue.status).to.eql(\"backlog\");\r",
+									"    pm.expect(jsonData.issue.priority).to.eql(\"3\");\r",
+									"\r",
+									"    //Validate that reporterId is equal to the currently logged-in user\r",
+									"    pm.expect(jsonData.issue.reporterId).to.eql(Number(pm.globals.get(\"current_user_id\")));\r",
+									"\r",
+									"    //Validate that projectId is equal to the current project\r",
+									"    pm.expect(jsonData.issue.projectId).to.eql(Number(pm.globals.get(\"project_id\")));\r",
+									"\r",
+									"    //Example, how to assert value from the list\r",
+									"    pm.expect(jsonData.issue.users[0].id).to.eql(Number(pm.globals.get('user_id1')));\r",
+									"\r",
+									"    pm.expect(jsonData.issue.estimate).to.eql(null);\r",
+									"    pm.expect(jsonData.issue.estimate).to.be.null;\r",
+									"    pm.expect(jsonData.issue.timeSpent).to.eql(null);\r",
+									"    pm.expect(jsonData.issue.timeRemaining).to.eql(null);\r",
+									"\r",
+									"    pm.expect(jsonData.issue.createdAt).to.not.be.null;\r",
+									"    pm.expect(jsonData.issue.updatedAt).to.not.be.null;\r",
+									"    pm.expect(jsonData.issue.listPosition).to.not.be.null;\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"Issue title\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Log time on an issue",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Save received response to a current test variable\r",
+									"var jsonData = pm.response.json();\r",
+									"pm.globals.set(\"issue_id\", jsonData.issue.id); \r",
+									"\r",
+									"// Test that the request was successful\r",
+									"pm.test(\"Time logging was successful\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"    pm.response.to.not.be.error;\r",
+									"});\r",
+									"\r",
+									"// Test to check if the time was logged correctly\r",
+									"pm.test(\"Check that time was logged correctly\", function () {\r",
+									"    pm.expect(jsonData.issue.timeSpent).to.eql(2);\r",
+									"    pm.expect(jsonData.issue.timeRemaining).to.eql(5);\r",
+									"});\r",
+									"\r",
+									"// Ensure other details of the issue remain unchanged\r",
+									"pm.test(\"Validate issue details remain unchanged\", function () {\r",
+									"    let savedIssueId = Number(pm.globals.get(\"issue_id\"));\r",
+									"    let returnedIssueId = jsonData.issue.id;\r",
+									"\r",
+									"    console.log(\"Saved Issue ID: \", savedIssueId); // Debugging: Log saved issue ID\r",
+									"    console.log(\"Returned Issue ID: \", returnedIssueId); // Debugging: Log returned issue ID\r",
+									"\r",
+									"    // Validate that the issue ID remains unchanged\r",
+									"    pm.expect(returnedIssueId).to.eql(savedIssueId);\r",
+									"\r",
+									"    // Ensure other details remain unchanged\r",
+									"    pm.expect(jsonData.issue.title).to.eql(pm.globals.get(\"issue_title\"));\r",
+									"    pm.expect(jsonData.issue.description).to.eql(pm.globals.get(\"issue_description\"));\r",
+									"    pm.expect(jsonData.issue.priority).to.eql(\"3\");\r",
+									"    pm.expect(jsonData.issue.status).to.eql(\"backlog\");\r",
+									"    pm.expect(jsonData.issue.reporterId).to.eql(Number(pm.globals.get(\"current_user_id\")));\r",
+									"    pm.expect(jsonData.issue.projectId).to.eql(Number(pm.globals.get(\"project_id\")));\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"Issue title\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ],\r\n    \"timeSpent\": 2,\r\n    \"timeRemaining\": 5\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove logged spent time",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"\r",
+									"// Log the entire response for debugging\r",
+									"console.log(JSON.stringify(jsonData, null, 2));\r",
+									"\r",
+									"// Test that the request was successful\r",
+									"pm.test(\"Time removal was successful\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"    pm.response.to.not.be.error;\r",
+									"});\r",
+									"\r",
+									"// Test to check if the time was removed correctly\r",
+									"pm.test(\"Check that time was removed correctly\", function () {\r",
+									"    pm.expect(jsonData.issue.timeSpent).to.be.oneOf([null, 0]);\r",
+									"    pm.expect(jsonData.issue.timeRemaining).to.be.oneOf([null, 0]);\r",
+									"});\r",
+									"\r",
+									"// Ensure other details of the issue remain unchanged\r",
+									"pm.test(\"Validate issue details remain unchanged\", function () {\r",
+									"    let savedIssueId = pm.globals.get(\"issue_id\");\r",
+									"    let returnedIssueId = jsonData.issue.id;\r",
+									"\r",
+									"    console.log(\"Saved Issue ID: \", savedIssueId);\r",
+									"    console.log(\"Returned Issue ID: \", returnedIssueId);\r",
+									"\r",
+									"    // Log a message about the changing ID instead of validating it\r",
+									"    console.log(\"Note: Issue ID has changed from \" + savedIssueId + \" to \" + returnedIssueId);\r",
+									"\r",
+									"    // Update the global issue_id variable with the new ID\r",
+									"    pm.globals.set(\"issue_id\", returnedIssueId.toString());\r",
+									"\r",
+									"    // Ensure other details remain unchanged\r",
+									"    pm.expect(jsonData.issue.title).to.eql(pm.globals.get(\"issue_title\"));\r",
+									"    pm.expect(jsonData.issue.description).to.eql(pm.globals.get(\"issue_description\"));\r",
+									"    pm.expect(jsonData.issue.priority).to.eql(\"3\");\r",
+									"    pm.expect(jsonData.issue.status).to.eql(\"backlog\");\r",
+									"    pm.expect(jsonData.issue.reporterId.toString()).to.eql(pm.globals.get(\"current_user_id\").toString());\r",
+									"    pm.expect(jsonData.issue.projectId.toString()).to.eql(pm.globals.get(\"project_id\").toString());\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.globals.set(\"issue_title\", \"Issue title\");\r",
+									"pm.globals.set(\"issue_description\", \"Issue description\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"{{issue_title}}\",\r\n    \"description\": \"{{issue_description}}\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ],\r\n    \"timeSpent\": null,\r\n    \"timeRemaining\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Maximum logged hours test",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const maxPossibleHours = 10000;\r",
+									"const minPossibleHours = 1;\r",
+									"let low = minPossibleHours;\r",
+									"let high = maxPossibleHours;\r",
+									"let maxHours = 0;\r",
+									"\r",
+									"function testHours(hours) {\r",
+									"    return new Promise((resolve, reject) => {\r",
+									"        pm.variables.set(\"hours\", hours);\r",
+									"        pm.sendRequest({\r",
+									"            url: pm.request.url,\r",
+									"            method: 'PUT',\r",
+									"            header: {\r",
+									"                'Content-Type': 'application/json'\r",
+									"            },\r",
+									"            body: {\r",
+									"                mode: 'raw',\r",
+									"                raw: pm.request.body.raw\r",
+									"            }\r",
+									"        }, (err, res) => {\r",
+									"            if (err) {\r",
+									"                reject(err);\r",
+									"            } else {\r",
+									"                console.log(`Response for ${hours} hours:`, res.code, res.status);\r",
+									"                console.log(`Response body:`, res.json());\r",
+									"                resolve({success: res.code === 200, response: res});\r",
+									"            }\r",
+									"        });\r",
+									"    });\r",
+									"}\r",
+									"\r",
+									"async function binarySearch() {\r",
+									"    while (low <= high) {\r",
+									"        let mid = Math.floor((low + high) / 2);\r",
+									"        console.log(`Testing ${mid} hours...`);\r",
+									"        \r",
+									"        try {\r",
+									"            const result = await testHours(mid);\r",
+									"            if (result.success) {\r",
+									"                maxHours = mid;\r",
+									"                low = mid + 1;\r",
+									"            } else {\r",
+									"                high = mid - 1;\r",
+									"            }\r",
+									"        } catch (error) {\r",
+									"            console.log(`Error occurred at ${mid} hours: ${error.message}`);\r",
+									"            high = mid - 1;\r",
+									"        }\r",
+									"    }\r",
+									"    \r",
+									"    console.log(`Maximum hours allowed: ${maxHours}`);\r",
+									"    pm.globals.set(\"max_hours_allowed\", maxHours);\r",
+									"    \r",
+									"    pm.test(\"Determined maximum hours for logging\", function () {\r",
+									"        pm.expect(maxHours).to.be.above(0);\r",
+									"    });\r",
+									"    \r",
+									"    // Verify the limit\r",
+									"    pm.test(\"Verify maximum hours limit\", async function () {\r",
+									"        const successResult = await testHours(maxHours);\r",
+									"        pm.expect(successResult.success).to.be.true;\r",
+									"        \r",
+									"        const failResult = await testHours(maxHours + 1);\r",
+									"        console.log(`Result for ${maxHours + 1} hours:`, failResult);\r",
+									"        \r",
+									"        if (failResult.success) {\r",
+									"            console.log(\"Warning: The API accepted a value higher than the determined maximum. The actual limit might be higher.\");\r",
+									"            pm.expect(failResult.success).to.be.false;\r",
+									"        } else {\r",
+									"            pm.expect(failResult.success).to.be.false;\r",
+									"        }\r",
+									"    });\r",
+									"}\r",
+									"\r",
+									"binarySearch().catch(error => {\r",
+									"    console.error(\"An error occurred during the binary search:\", error);\r",
+									"    pm.test(\"Binary search completed without errors\", function () {\r",
+									"        pm.expect.fail(\"Binary search failed: \" + error.message);\r",
+									"    });\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.globals.set(\"issue_title\", \"Test Issue for Max Hours\");\r",
+									"pm.globals.set(\"issue_description\", \"Testing maximum hours logging\");\r",
+									"pm.variables.set(\"hours\", 1);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"{{issue_title}}\",\r\n    \"description\": \"{{issue_description}}\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ],\r\n    \"timeSpent\": {{hours}},\r\n    \"timeRemaining\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Time tracking: estimate",
+			"item": [
+				{
+					"name": "Create issue (prerequisite) Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"//save received response to current test variable\r",
+									"var jsonData = pm.response.json();\r",
+									"\r",
+									"//save certain value from JSON to globals  variable\r",
+									"pm.globals.set(\"issue_id\", jsonData.issue.id);\r",
+									"\r",
+									"pm.test(\"Issue creation was successful\", function () {\r",
+									"    pm.response.to.not.be.error;\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Check that information was saved correctly\", function () {\r",
+									"    pm.expect(jsonData.issue.title).to.eql(\"Issue title\");\r",
+									"    pm.expect(jsonData.issue.type).to.eql(\"task\");\r",
+									"    pm.expect(jsonData.issue.description).to.eql(\"Issue description\");\r",
+									"\r",
+									"    //Validate status and priority\r",
+									"    pm.expect(jsonData.issue.status).to.eql(\"backlog\");\r",
+									"    pm.expect(jsonData.issue.priority).to.eql(\"3\");\r",
+									"\r",
+									"    //Validate that reporterId is equal to the currently logged-in user\r",
+									"    pm.expect(jsonData.issue.reporterId).to.eql(Number(pm.globals.get(\"current_user_id\")));\r",
+									"\r",
+									"    //Validate that projectId is equal to the current project\r",
+									"    pm.expect(jsonData.issue.projectId).to.eql(Number(pm.globals.get(\"project_id\")));\r",
+									"\r",
+									"    //Example, how to assert value from the list\r",
+									"    pm.expect(jsonData.issue.users[0].id).to.eql(Number(pm.globals.get('user_id1')));\r",
+									"\r",
+									"    pm.expect(jsonData.issue.estimate).to.eql(null);\r",
+									"    pm.expect(jsonData.issue.estimate).to.be.null;\r",
+									"    pm.expect(jsonData.issue.timeSpent).to.eql(null);\r",
+									"    pm.expect(jsonData.issue.timeRemaining).to.eql(null);\r",
+									"\r",
+									"    pm.expect(jsonData.issue.createdAt).to.not.be.null;\r",
+									"    pm.expect(jsonData.issue.updatedAt).to.not.be.null;\r",
+									"    pm.expect(jsonData.issue.listPosition).to.not.be.null;\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"Issue title\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Log estimated time on issue",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Estimated time logged successfully\", function () {\r",
+									"    pm.expect(jsonData.issue.estimate).to.eql(8);\r",
+									"});\r",
+									"\r",
+									"console.log(JSON.stringify(jsonData, null, 2));"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"Issue title\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ],\r\n    \"estimate\": 8\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Removing logged estimated time",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response structure is correct\", function () {\r",
+									"    pm.expect(jsonData).to.be.an('object');\r",
+									"    pm.expect(jsonData.issue).to.be.an('object');\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Estimated time removed or set to zero\", function () {\r",
+									"    pm.expect(jsonData.issue.estimate).to.satisfy((value) => value === null || value === 0);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Other issue details remain unchanged\", function () {\r",
+									"    pm.expect(jsonData.issue.title).to.eql(\"Issue title\");\r",
+									"    pm.expect(jsonData.issue.type).to.eql(\"task\");\r",
+									"    pm.expect(jsonData.issue.description).to.eql(\"Issue description\");\r",
+									"    pm.expect(jsonData.issue.status).to.eql(\"backlog\");\r",
+									"    pm.expect(jsonData.issue.priority).to.eql(\"3\");\r",
+									"    pm.expect(jsonData.issue.reporterId).to.eql(Number(pm.globals.get(\"current_user_id\")));\r",
+									"    pm.expect(jsonData.issue.projectId).to.eql(Number(pm.globals.get(\"project_id\")));\r",
+									"});\r",
+									"\r",
+									"// Log the response for debugging\r",
+									"console.log(\"Response status: \" + pm.response.code);\r",
+									"console.log(\"Response body:\");\r",
+									"console.log(JSON.stringify(jsonData, null, 2));\r",
+									"\r",
+									"// Clear the estimate global variable\r",
+									"pm.globals.unset(\"issue_estimate\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"Issue title\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ],\r\n    \"estimate\": 0\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Removing logged estimated time Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response structure is correct\", function () {\r",
+									"    pm.expect(jsonData).to.be.an('object');\r",
+									"    pm.expect(jsonData.issue).to.be.an('object');\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Estimated time removed or set to zero\", function () {\r",
+									"    pm.expect(jsonData.issue.estimate).to.satisfy((value) => value === null || value === 0);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Other issue details remain unchanged\", function () {\r",
+									"    pm.expect(jsonData.issue.title).to.eql(\"Issue title\");\r",
+									"    pm.expect(jsonData.issue.type).to.eql(\"task\");\r",
+									"    pm.expect(jsonData.issue.description).to.eql(\"Issue description\");\r",
+									"    pm.expect(jsonData.issue.status).to.eql(\"backlog\");\r",
+									"    pm.expect(jsonData.issue.priority).to.eql(\"3\");\r",
+									"    pm.expect(jsonData.issue.reporterId).to.eql(Number(pm.globals.get(\"current_user_id\")));\r",
+									"    pm.expect(jsonData.issue.projectId).to.eql(Number(pm.globals.get(\"project_id\")));\r",
+									"});\r",
+									"\r",
+									"// Log the response for debugging\r",
+									"console.log(\"Response status: \" + pm.response.code);\r",
+									"console.log(\"Response body:\");\r",
+									"console.log(JSON.stringify(jsonData, null, 2));\r",
+									"\r",
+									"// Clear the estimate global variable\r",
+									"pm.globals.unset(\"issue_estimate\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"Issue title\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ],\r\n    \"estimate\": 0\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Maximum estimated hours test",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"let testEstimate = pm.environment.get(\"testEstimate\");\r",
+									"let low = pm.environment.get(\"lowEstimate\");\r",
+									"let high = pm.environment.get(\"highEstimate\");\r",
+									"let maxEstimateFound = pm.environment.get(\"maxEstimateFound\");\r",
+									"let iteration = pm.environment.get(\"iteration\");\r",
+									"let maxIterations = pm.environment.get(\"maxIterations\");\r",
+									"\r",
+									"if (pm.response.code === 200) {\r",
+									"    console.log(`Estimate of ${testEstimate} hours is allowed.`);\r",
+									"    low = testEstimate;\r",
+									"    pm.environment.set(\"lowEstimate\", low);\r",
+									"    \r",
+									"    if (high - low <= 1) {\r",
+									"        console.log(`Maximum allowed estimate found: ${low} hours`);\r",
+									"        pm.environment.set(\"maxEstimateFound\", true);\r",
+									"        pm.test(`Maximum allowed estimate is ${low} hours`, function () {\r",
+									"            pm.expect(low).to.be.above(0);\r",
+									"        });\r",
+									"    }\r",
+									"} else if (pm.response.code === 500) {\r",
+									"    console.log(`Estimate of ${testEstimate} hours causes an internal error.`);\r",
+									"    high = testEstimate;\r",
+									"    pm.environment.set(\"highEstimate\", high);\r",
+									"}\r",
+									"\r",
+									"if (!maxEstimateFound && iteration < maxIterations) {\r",
+									"    testEstimate = Math.floor((low + high) / 2);\r",
+									"    pm.environment.set(\"testEstimate\", testEstimate);\r",
+									"    iteration++;\r",
+									"    pm.environment.set(\"iteration\", iteration);\r",
+									"    \r",
+									"    // Trigger the next iteration\r",
+									"    postman.setNextRequest(pm.info.requestName);\r",
+									"} else if (maxEstimateFound) {\r",
+									"    // Clear environment variables\r",
+									"    pm.environment.unset(\"testEstimate\");\r",
+									"    pm.environment.unset(\"lowEstimate\");\r",
+									"    pm.environment.unset(\"highEstimate\");\r",
+									"    pm.environment.unset(\"maxEstimateFound\");\r",
+									"    pm.environment.unset(\"iteration\");\r",
+									"    pm.environment.unset(\"maxIterations\");\r",
+									"    \r",
+									"    postman.setNextRequest(null); // Stop the iteration\r",
+									"} else {\r",
+									"    console.log(\"Max iterations reached without finding the limit.\");\r",
+									"    postman.setNextRequest(null); // Stop the iteration\r",
+									"}\r",
+									"\r",
+									"console.log(`Iteration: ${iteration}, Low: ${low}, High: ${high}, Next test: ${testEstimate}`);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"if (!pm.environment.get(\"maxIterations\")) {\r",
+									"    pm.environment.set(\"maxIterations\", 20); // Prevent infinite loops\r",
+									"}\r",
+									"\r",
+									"if (!pm.environment.get(\"iteration\")) {\r",
+									"    pm.environment.set(\"iteration\", 0);\r",
+									"}\r",
+									"\r",
+									"if (!pm.environment.get(\"testEstimate\")) {\r",
+									"    let low = 0;\r",
+									"    let high = 1000000; // Start with a high upper bound\r",
+									"    pm.environment.set(\"testEstimate\", Math.floor((low + high) / 2));\r",
+									"    pm.environment.set(\"lowEstimate\", low);\r",
+									"    pm.environment.set(\"highEstimate\", high);\r",
+									"    pm.environment.set(\"maxEstimateFound\", false);\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"Issue title\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ],\r\n    \"estimate\": {{testEstimate}}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/issues",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"issues"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Create issue: title with more than 200 symbols (neg test sc) Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Title Exceeding 200 Characters - Status Code\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Title Exceeding 200 Characters - Error Message\", function() {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(jsonData).to.have.property('error');\r",
+							"    pm.expect(jsonData.error).to.be.an('object');\r",
+							"    pm.expect(jsonData.error.message).to.equal('There were validation errors.');\r",
+							"    pm.expect(jsonData.error.code).to.equal('BAD_USER_INPUT');\r",
+							"    pm.expect(jsonData.error.status).to.equal(400);\r",
+							"    pm.expect(jsonData.error.data).to.have.property('fields');\r",
+							"    pm.expect(jsonData.error.data.fields).to.have.property('title');\r",
+							"    \r",
+							"    // Check for specific error message about title length\r",
+							"    pm.expect(jsonData.error.data.fields.title).to.equal('Must be at most 200 characters');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Only Title Field is Flagged as Error\", function() {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(Object.keys(jsonData.error.data.fields)).to.have.lengthOf(1);\r",
+							"    pm.expect(jsonData.error.data.fields).to.have.property('title');\r",
+							"});\r",
+							"\r",
+							"console.log(\"Error Message: \" + JSON.stringify(pm.response.json().error));"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTY2MTg4ODg2NSwiZXhwIjoxNjc3NDQwODY1fQ.xBCXkyIvbEe6yW1l079gPqZjt0indGDLBvyUG9n_0es"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"task\",\r\n    \"title\": \"This is a very long title that exceeds the 200 character limit. It goes on and on with unnecessary words and phrases just to make sure we cross that 200 character threshold. We're adding more words here to really push it over the edge and test the system's ability to handle overly verbose titles.\",\r\n    \"description\": \"Issue description\",\r\n    \"reporterId\": {{current_user_id}},\r\n    \"priority\": \"3\",\r\n    \"status\": \"backlog\",\r\n    \"projectId\": {{project_id}},\r\n    \"users\": [\r\n        {\r\n            \"id\": {{user_id1}}\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/issues",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"issues"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://jira-api.ivorreic.com",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "AUTH_TOKEN",
+			"type": "string"
+		},
+		{
+			"key": "issue_id",
+			"value": "2457842",
+			"type": "string"
+		},
+		{
+			"key": "new_status",
+			"value": "undefined",
+			"type": "string"
+		},
+		{
+			"key": "non_existing_issue_id",
+			"value": "99999999999",
+			"type": "string"
+		}
+	]
+}

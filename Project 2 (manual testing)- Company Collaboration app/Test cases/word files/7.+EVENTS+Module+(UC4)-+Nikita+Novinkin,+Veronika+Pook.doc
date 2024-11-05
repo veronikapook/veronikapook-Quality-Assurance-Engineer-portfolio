@@ -1,0 +1,1261 @@
+Date: Mon, 1 Jul 2024 07:27:09 +0000 (UTC)
+Message-ID: <1930015940.1.1719818829117@a6ee622a6a12>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1024113327.1719818829096"
+
+------=_Part_0_1024113327.1719818829096
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>7. EVENTS Module (UC4)- Nikita Novinkin, Veronika Pook</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>7. EVENTS Module (UC4)- Nikita Novinkin, Veronika Pook</h1>
+    <div class=3D"Section1">
+        <p><strong>Sprint 1: COMPANY COLLABORATION APP</strong> <a class=3D=
+"external-link" data-card-appearance=3D"inline" href=3D"https://apps.fliple=
+t.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh" rel=3D"nofo=
+llow">https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-0=
+1/login-rcnh</a> &nbsp;Version 1.0.3</p>
+<p><strong>SPRINT 2: COMPANY COLLABORATION APP.</strong> <a class=3D"extern=
+al-link" data-card-appearance=3D"inline" href=3D"https://apps.fliplet.com/c=
+erebrum-hub-my-directory-v-4-0-3-fglxrqzz/login-rcr9" rel=3D"nofollow">http=
+s://apps.fliplet.com/cerebrum-hub-my-directory-v-4-0-3-fglxrqzz/login-rcr9<=
+/a> Version 4.0.3</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b3=
+25995a-3407-4834-8736-9a1b45728750" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p>&nbsp;</p></th>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p style=3D"text-align: center;"><strong>User</strong></p></th>
+<th data-highlight-colour=3D"#e6fcff" class=3D"confluenceTh">
+<p style=3D"text-align: center;"><strong>Admin</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Email:</strong></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_user@email.com" rel=3D"n=
+ofollow">team6_user@email.com</a></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_admin@ebay.com" rel=3D"n=
+ofollow">team6_admin@ebay.com</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Password:</strong></p></td>
+<td class=3D"confluenceTd">
+<p>user</p></td>
+<td class=3D"confluenceTd">
+<p>admin</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong><u>Events Module UC</u></strong> <a href=3D"/wiki/spaces/T11CCP/=
+pages/663978112/UC4.+Events+module" data-linked-resource-id=3D"663978112" d=
+ata-linked-resource-version=3D"1" data-linked-resource-type=3D"page">UC4. E=
+vents module</a></p>
+<h2 id=3D"id-7.EVENTSModule(UC4)-NikitaNovinkin,VeronikaPook-7.1.Listofalle=
+vents(testers:NikitaandRoman)"><strong>7.1. List of all events (testers: Ni=
+kita and Roman)</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"99=
+048bf0-0cad-43f4-abc5-137d7018a4be" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 194.0px;">
+<col style=3D"width: 564.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.1.1 Events list preview</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that an authenticated user can view the list of all added events.=
+</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>List of added events</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>View the list of events.</p></li>
+<li>
+<p>Verify the list of all events is displayed with the appropriate details.=
+</p></li>
+<li>
+<p>Verify the events are sorted by start date (oldest at the top).</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Events module is displayed without any errors.</p></li>
+<li>
+<p>The list of all events is visible, showing event name, start and end dat=
+e, event type, and manager email.</p></li>
+<li>
+<p>Events list contains correct details for each event, including event nam=
+e, start and end date, event type, and manager email.</p></li>
+<li>
+<p>Events list is sorted by start date, with the oldest events at the top o=
+f the list.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-230"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-230" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-230</a> - <span class=3D"summary">7.1.=
+1 Events list preview</span> <span class=3D"aui-lozenge aui-lozenge-subtle =
+aui-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </spa=
+n></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2d=
+43a683-b824-4ebb-b3d6-3b2fcea224e0" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 196.0px;">
+<col style=3D"width: 562.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.1.2 Sorting events by different parameters</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the user can sort events by different parameters.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Sorting filter</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Apply sorting by start date and verify the following:</p>
+<ul>
+<li>
+<p>Events are sorted by start date, with the oldest events at the top of th=
+e list.</p></li>
+</ul></li>
+<li>
+<p>Apply sorting by end date and verify the following:</p>
+<ul>
+<li>
+<p>Events are sorted by end date, with the earliest ending events at the to=
+p of the list.</p></li>
+</ul></li>
+<li>
+<p>Apply sorting by event type and verify the following:</p>
+<ul>
+<li>
+<p>Events are sorted by event type in alphabetical order.</p></li>
+</ul></li>
+<li>
+<p>Apply sorting by office and verify the following:</p>
+<ul>
+<li>
+<p>Events are sorted by office in alphabetical order.</p></li>
+</ul></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Events module is displayed without any errors.</p></li>
+<li>
+<p>When sorting is applied by start date, events are sorted in ascending or=
+der (oldest at the top).</p></li>
+<li>
+<p>When sorting is applied by end date, events are sorted in ascending orde=
+r (earliest ending events at the top).</p></li>
+<li>
+<p>When sorting is applied by event type, events are sorted alphabetically =
+by event type.</p></li>
+<li>
+<p>When sorting is applied by office, events are sorted alphabetically by o=
+ffice.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-231"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-231" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-231</a> - <span class=3D"summary">7.1.=
+2 Sorting events by different parameters</span> <span class=3D"aui-lozenge =
+aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf"=
+>To Do</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"93=
+4609ec-442f-4960-8d4c-8df663ae4282" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 196.0px;">
+<col style=3D"width: 562.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.1.3 Filtering events by type, office, and start date</strong><=
+/p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the user can filter events by type, office, and start date.<=
+/p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Filters for event type, office, and start date</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Apply a filter by event type:</p>
+<ul>
+<li>
+<p>Select a specific event type from the filter options.</p></li>
+<li>
+<p>Verify the list of events is updated to only show events matching the se=
+lected event type.</p></li>
+</ul></li>
+<li>
+<p>Apply a filter by office:</p>
+<ul>
+<li>
+<p>Select a specific office from the filter options.</p></li>
+<li>
+<p>Verify the list of events is updated to only show events taking place in=
+ the selected office.</p></li>
+</ul></li>
+<li>
+<p>Apply a filter by start date:</p>
+<ul>
+<li>
+<p>Select a specific start date from the filter options.</p></li>
+<li>
+<p>Verify the list of events is updated to only show events starting on the=
+ selected date or later.</p></li>
+</ul></li>
+<li>
+<p>Apply a combination of filters (event type, office, and start date):</p>
+<ul>
+<li>
+<p>Select an event type, office, and start date simultaneously from the fil=
+ter options.</p></li>
+<li>
+<p>Verify the list of events is updated to show only events matching all ch=
+osen filters.</p></li>
+</ul></li>
+<li>
+<p>Verify the filtered list of events is sorted by start date (oldest at th=
+e top).</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Events module is displayed without any errors.</p></li>
+<li>
+<p>When filtering by event type, the list of events is updated to only show=
+ events matching the selected event type.</p></li>
+<li>
+<p>When filtering by office, the list of events is updated to only show eve=
+nts taking place in the selected office.</p></li>
+<li>
+<p>When filtering by start date, the list of events is updated to only show=
+ events starting on the selected date or later.</p></li>
+<li>
+<p>When a combination of filters (event type, office, and start date) is ap=
+plied, the list of events is updated to show only events matching all chose=
+n filters.</p></li>
+<li>
+<p>The filtered list of events is sorted by start date, with the oldest eve=
+nts at the top.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffbdad" class=3D"confluenceTd">
+<p>FAILED. <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D=
+"T11CCP-251"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T=
+11CCP-251" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cere=
+brumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuety=
+pe/avatar/10303?size=3Dmedium">T11CCP-251</a> - <span class=3D"summary">7.1=
+.3 Filtering events by type, office, and start date</span> <span class=3D"a=
+ui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-=
+export-pdf">To Do</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-7.EVENTSModule(UC4)-NikitaNovinkin,VeronikaPook-7.2Eventdetail=
+s(testers:VeronikaandMark)">7.2 Event details <strong> </strong>(testers: V=
+eronika and Mark)</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d2=
+a7db44-f4a5-4cc9-ac45-f5328f5548b5" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 196.0px;">
+<col style=3D"width: 562.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.2.1 Event detail view </strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the user can view event details.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Sorting filter</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Select an event from the list to view its details.</p></li>
+<li>
+<p>Verify the event detail view is displayed, including the following infor=
+mation:</p>
+<ul>
+<li>
+<p>Name of the event.</p></li>
+<li>
+<p>Description of the event (if available).</p></li>
+<li>
+<p>Start date and end date.</p></li>
+<li>
+<p>Link to additional information (if available).</p></li>
+<li>
+<p>Type of event.</p></li>
+<li>
+<p>Office where the event is taking place.</p></li>
+<li>
+<p>Address of the event (if available).</p></li>
+</ul></li>
+<li>
+<p>Verify that empty fields (such as description, link, or address) are not=
+ displayed in the event details view to reduce clutter.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Events module is displayed without any errors.</p></li>
+<li>
+<p>Event detail view is displayed when an event is selected from the list.<=
+/p></li>
+<li>
+<p>Event details include the following information:</p>
+<ul>
+<li>
+<p>Name, start date, end date, type, and office of the event.</p></li>
+<li>
+<p>Description, link, and address are displayed if they have values; otherw=
+ise, they are left out.</p></li>
+</ul></li>
+<li>
+<p>Empty fields are not shown in the event detail view, ensuring the event =
+details are short and clear.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>5 issues:</p>
+<ol start=3D"1">
+<li>
+<p>Submitting an event with an end date before the start date is feasible.-=
+ CRITICAL!</p></li>
+<li>
+<p>Developer=E2=80=99s notes at =E2=80=9CStart date=E2=80=9D- low priority<=
+/p></li>
+<li>
+<p>The system provides the user with the start time and end time of the eve=
+nt.- medium priority</p></li>
+<li>
+<p>Calendar- names of the months are in Estonian. - medium priority</p></li=
+>
+<li>
+<p>Redundant pattern at the end of the form. - low priority</p></li>
+</ol>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+212"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-21=
+2" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubs=
+tudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avata=
+r/10303?size=3Dmedium">T11CCP-212</a> - <span class=3D"summary">7.2.3 Event=
+ detail view: Calender (5 issues)</span> <span class=3D"aui-lozenge aui-loz=
+enge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">TEST FA=
+ILED</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"45=
+a07447-882c-47b8-819e-154338fbbc15" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 195.0px;">
+<col style=3D"width: 565.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.2.2 Bookmarking an event</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the user can bookmark an event.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Bookmark function</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Click on an event</p></li>
+<li>
+<p>Click on Bookmark icon</p></li>
+<li>
+<p>Check if the bookmark icon changes color indicating that bookmarking was=
+ successful</p></li>
+<li>
+<p>Navigate back to the Events list</p></li>
+<li>
+<p>Open Filters</p></li>
+<li>
+<p>Choose <u>Bookmarked events</u> filter</p></li>
+<li>
+<p>Observe if the list is present and the event you added in the previous s=
+teps is present</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Events module is displayed without any errors.</p></li>
+<li>
+<p>Selected Event=E2=80=99s detail view opens</p></li>
+<li>
+<p>Bookmark icon is clickable</p></li>
+<li>
+<p>Bookmark icon changes color (light grey =E2=86=92 dark grey) indicating =
+that event is bookmarked</p></li>
+<li>
+<p>User is on the Events page</p></li>
+<li>
+<p>Filters can be opened</p></li>
+<li>
+<p><u>Bookmarked events</u> filter is present and clickable</p></li>
+<li>
+<p>Bookmarked events are/One bookmarked event is present</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p>
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>ADDING AND MANAGING EVENTS (Role: Administrator) </strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"45=
+89a4b3-dcbf-4f6b-a1ea-a2956849b015" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 194.0px;">
+<col style=3D"width: 564.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.2.3 Conditions for adding new event</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check that required fields exist and have correct status (mandatory or o=
+ptional) in =E2=80=9Ccreating the new event=E2=80=9D.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in as an administrator.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Form for adding a new event</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Press the "+" button to add a new event.</p></li>
+<li>
+<p>Check that following fields exist in creating the new event:</p></li>
+</ol>
+<ul>
+<li>
+<p>=E2=80=9CName=E2=80=9D (text field),</p></li>
+<li>
+<p>=E2=80=9CDescription=E2=80=9D (text area),</p></li>
+<li>
+<p>=E2=80=9CStart date=E2=80=9D (date picker),</p></li>
+<li>
+<p>=E2=80=9CEnd date=E2=80=9D (date picker),</p></li>
+<li>
+<p>=E2=80=9CLink=E2=80=9D (text field)</p></li>
+<li>
+<p>=E2=80=9CType=E2=80=9D (text field),</p></li>
+<li>
+<p>=E2=80=9COffice=E2=80=9D (list of offices),</p></li>
+<li>
+<p>=E2=80=9CAddress=E2=80=9D (text field).</p></li>
+</ul>
+<ol start=3D"4">
+<li>
+<p>Check that following fields are <strong>mandatory </strong>and marked so=
+ to make it visible and understandable : =E2=80=9CName=E2=80=9D, Start date=
+=E2=80=9D, =E2=80=9CEnd date=E2=80=9D, =E2=80=9CType=E2=80=9D, =E2=80=9Coff=
+ice=E2=80=9D.</p></li>
+<li>
+<p>Following fields are <strong>optional</strong> (and not marked with mand=
+atory field symbol): =E2=80=9C=E2=80=9CDescription=E2=80=9D, =E2=80=9CLink=
+=E2=80=9D, =E2=80=9CAddress=E2=80=9D.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User can navigate to Events module</p></li>
+<li>
+<p>User can click =E2=80=9C+=E2=80=9D button and new vent form is opened</p=
+></li>
+<li>
+<p>All the required fields exist</p></li>
+<li>
+<p>Mandatory fields are marked</p></li>
+<li>
+<p>Optional fields don=E2=80=99t have any symbols/marking</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+213"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-21=
+3" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubs=
+tudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avata=
+r/10303?size=3Dmedium">T11CCP-213</a> - <span class=3D"summary">7.2.3 Manda=
+tory fields missing asterisks (New event's form)</span> <span class=3D"aui-=
+lozenge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-expo=
+rt-pdf">TEST FAILED</span> </span></p>
+<p>5 issues:</p>
+<ol start=3D"1">
+<li>
+<p>Submitting an event with an end date before the start date is feasible.-=
+ CRITICAL!</p></li>
+<li>
+<p>Developer=E2=80=99s notes at =E2=80=9CStart date=E2=80=9D- low priority<=
+/p></li>
+<li>
+<p>The system provides the user with the start time and end time of the eve=
+nt.- medium priority</p></li>
+<li>
+<p>Calendar- names of the months are in Estonian. - medium priority</p></li=
+>
+<li>
+<p>Redundant pattern at the end of the form. - low priority</p></li>
+</ol>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+212"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-21=
+2" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubs=
+tudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avata=
+r/10303?size=3Dmedium">T11CCP-212</a> - <span class=3D"summary">7.2.3 Event=
+ detail view: Calender (5 issues)</span> <span class=3D"aui-lozenge aui-loz=
+enge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">TEST FA=
+ILED</span> </span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a7=
+75b22a-2720-4448-97a3-f6a87fe1944a" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 198.0px;">
+<col style=3D"width: 562.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.2.4 Adding new event</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that an administrator can add a new event.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in as an administrator.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Function: adding new event</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Press the "+" button to add a new event.</p></li>
+<li>
+<p><u>Fill in 3 of 4 of the required fields:</u></p>
+<ul>
+<li>
+<p>Name in the mandatory text field.- <strong>fill in</strong></p></li>
+<li>
+<p>Start and end date using the date picker.- <strong>fill in</strong></p><=
+/li>
+<li>
+<p>Type using the mandatory text field.- <strong>a)</strong> fill in <stron=
+g>b)</strong> delete input <strong>c)</strong> leave empty</p></li>
+<li>
+<p>Office using the select list of offices.- <strong>select office</strong>=
+</p></li>
+</ul></li>
+<li>
+<p>Fill in the optional fields:</p>
+<ul>
+<li>
+<p>Description in the optional text area.- <strong>fill in </strong></p></l=
+i>
+<li>
+<p>Link in the optional text field. - <strong>fill in </strong></p></li>
+<li>
+<p>Address in the optional text field. <strong>a)</strong> fill in <strong>=
+b)</strong> delete input <strong>c)</strong> leave empty</p></li>
+</ul></li>
+<li>
+<p>Save the event by clicking the "Save" button.</p></li>
+<li>
+<p>Verify that every mandatory field that is left empty shows an error mess=
+age- <strong>Field is mandatory</strong>- indicating the field needs to be =
+filled.</p></li>
+<li>
+<p>Fill in mandatory text field- Type</p></li>
+<li>
+<p>Save the event by clicking the "Save" button.</p></li>
+<li>
+<p>User navigates back to events list.</p></li>
+<li>
+<p>Click on the event created. Observe that Optional fields, that were fill=
+ed in, are saved along with the event.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User can navigate to Events module</p></li>
+<li>
+<p>New event creation form is opened when the "+" button is clicked.</p></l=
+i>
+<li>
+<p>Mandatory fields are present and allow user input.</p></li>
+<li>
+<p>Optional fields are present and allow input.</p></li>
+<li>
+<p>Save button is present. Clicking the Save button saves the event when al=
+l mandatory fields are filled.</p></li>
+<li>
+<p>When any mandatory field is left empty, an error message- <strong>Field =
+is mandatory</strong>- is displayed specifying that the field needs to be f=
+illed.</p></li>
+<li>
+<p>Mandatory field is filled in</p></li>
+<li>
+<p>When the event is saved, a <u>success message</u> is displayed.</p></li>
+<li>
+<p>User can navigate back to the list of all events, where the new event is=
+ visible in the list.</p></li>
+<li>
+<p>Optional fields, that were filled in, are saved along with the event.</p=
+></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>Failed: <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D=
+"T11CCP-227"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T=
+11CCP-227" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cere=
+brumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuety=
+pe/avatar/10303?size=3Dmedium">T11CCP-227</a> - <span class=3D"summary">7.2=
+.4 Adding new event</span> <span class=3D"aui-lozenge aui-lozenge-subtle au=
+i-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </span>=
+ <br>
+Name, start and end date, office are optional<br>
+Description is mandatory</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c3=
+95742c-cbee-4785-9000-3d4a8d507091" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 194.0px;">
+<col style=3D"width: 564.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.2.5 Editing an event</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that administrator can edit an event.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in as an administrator.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Event edit function</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Click on an event.</p></li>
+<li>
+<p>Click Edit button.</p></li>
+<li>
+<p>Change Name of the event and end date; Click Save button.</p></li>
+<li>
+<p>Check edited event by clicking on the event and viewing edited fields.</=
+p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User can navigate to Events module.</p></li>
+<li>
+<p>User can open an event.</p></li>
+<li>
+<p>User can successfully click on Edit button.</p></li>
+<li>
+<p>Suggested fields are changed and event is successfully Saved.</p></li>
+<li>
+<p>All the edited information has been changed.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-223"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-223" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-223</a> - <span class=3D"summary">7.2.=
+5 Editing an event</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui=
+-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </span><=
+/p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"db=
+6091b3-7892-4707-9a9f-fb0823a94c3b" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 195.0px;">
+<col style=3D"width: 565.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>7.2.6 Deleting an event</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that administrator can delete an event.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in as an administrator.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Event delete function</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the Events module.</p></li>
+<li>
+<p>Click on an event.</p></li>
+<li>
+<p>Click Delete button.</p></li>
+<li>
+<p>Verify that the confirmation modal is shown.</p></li>
+<li>
+<p>Confirm your intention to proceed with the deletion process.</p></li>
+<li>
+<p>Check the process success by applying Search (enter the name of the even=
+t).</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User can navigate to Events module.</p></li>
+<li>
+<p>User can open an event.</p></li>
+<li>
+<p>User can successfully click on Delete button.</p></li>
+<li>
+<p>Confirmation modal is shown .</p></li>
+<li>
+<p>Confirmation is successful.</p></li>
+<li>
+<p>Deleted event cannot be found by applying Search by name.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Actual Result</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED <span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"=
+T11CCP-225"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T1=
+1CCP-225" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cereb=
+rumhubstudents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetyp=
+e/avatar/10303?size=3Dmedium">T11CCP-225</a> - <span class=3D"summary">7.2.=
+6 Deleting an event</span> <span class=3D"aui-lozenge aui-lozenge-subtle au=
+i-lozenge-complete jira-macro-single-issue-export-pdf">To Do</span> </span>=
+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_0_1024113327.1719818829096--

@@ -1,0 +1,1551 @@
+Date: Mon, 1 Jul 2024 07:21:14 +0000 (UTC)
+Message-ID: <592968233.13.1719818474397@e58376f280f5>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_1708057164.1719818474396"
+
+------=_Part_12_1708057164.1719818474396
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>2. DIRECTORY module - Roman Sobolenko Solar, Nikita Novinkins, M=
+ark T=C5=A1ubarov</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>2. DIRECTORY module - Roman Sobolenko Solar, Nikita Novinkins, Mark=
+ T=C5=A1ubarov</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-local-id=3D"fd9d7b96-9b8b-429a-bd8c-c96e7470493e" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 285.0px;">
+<col style=3D"width: 285.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Precondition</strong></p></th>
+<th colspan=3D"2" class=3D"confluenceTh">
+<p><strong>Logged in - </strong><a class=3D"external-link" data-card-appear=
+ance=3D"inline" href=3D"https://apps.fliplet.com/cerebrum-hub-my-directory-=
+v-1-0-3-l-5-omof-01/directory-rcn2" rel=3D"nofollow">https://apps.fliplet.c=
+om/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/directory-rcn2</a></p></th=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Email:</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_user@email.com" rel=3D"n=
+ofollow">team6_user@email.com</a></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"mailto:team1_admin@ebay.com" rel=3D"n=
+ofollow">team6_admin@ebay.com</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Password:</p></td>
+<td class=3D"confluenceTd">
+<p>user</p></td>
+<td class=3D"confluenceTd">
+<p>admin</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br><a class=3D"confluence-userlink user-mention" data-account-id=3D"712=
+020:7082e5f1-c97e-477d-b316-30ee6bb1fdf2" href=3D"https://cerebrumhubstuden=
+ts.atlassian.net/wiki/people/712020:7082e5f1-c97e-477d-b316-30ee6bb1fdf2?re=
+f=3Dconfluence" target=3D"_blank" data-linked-resource-id=3D"618201187" dat=
+a-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data=
+-base-url=3D"https://cerebrumhubstudents.atlassian.net/wiki">Mark T=C5=A1ub=
+arov</a> (tester: Veronika; testing time: 07/05/24)</p>
+<div class=3D"table-wrap">
+<table data-local-id=3D"7bbb2e0b-9184-472c-bfc9-23ef0f0916ab" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.1 Navigation to the module.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the directory module by pressing =E2=80=9CDirectory=E2=80=9D=
+ button in the menu.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to Directory module.</p></li>
+<li>
+<p>Click =E2=80=9CDirectory=E2=80=9D button.</p></li>
+<li>
+<p>Check that user is directed to a Directory module.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Directory module button is visible.</p></li>
+<li>
+<p>=E2=80=9CDirectory=E2=80=9D button is clickable.</p></li>
+<li>
+<p>User is directed to a Directory module.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Tested</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-local-id=3D"031e328d-db78-41ec-8a6c-034ebc5b988d" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.2</strong> <strong>Typos and not working buttons.</strong></p>=
+</th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"inline-comment-marker" data-ref=3D"f344ab9c-0929-45d6-8d2=
+0-c6968461e016">Ensure, that Directory module page does not have any misspe=
+lt words and every button behaves as expected.</span></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on the Directory page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check for typos on Directory module page.</p></li>
+<li>
+<p>Verify, that there are no non-functioning buttons.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>No typos has been found.</p></li>
+<li>
+<p>Every button is working as expected.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Tested</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-local-id=3D"b7337004-9147-42da-a730-d4015ec528c1" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.3</strong> <strong>Employees list.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if Directory view shows employees list.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on the Directory page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Check if the employees list is shown.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User can see all employees of the company.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Tested</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-local-id=3D"1bfd8472-ae4b-45be-91d3-07a811a76476" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.4</strong> <strong>Employee's information is fully viewable.</=
+strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check, that employees profile information is displayed correctly and use=
+r can see it all.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in and on the Directory page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Employee=E2=80=99s profile</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on employee=E2=80=99s profile to see information.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The user can see all the information about employees and it fully viewab=
+le.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Tested</p></td>
+<td data-highlight-colour=3D"#ffebe6" class=3D"confluenceTd">
+<p>FAILED</p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"T11CCP-=
+56"> <a href=3D"https://cerebrumhubstudents.atlassian.net/browse/T11CCP-56"=
+ class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://cerebrumhubstu=
+dents.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/=
+10303?size=3Dmedium">T11CCP-56</a> - <span class=3D"summary">2.4 Contact in=
+formation is cut</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-l=
+ozenge-current jira-macro-single-issue-export-pdf">TEST FAILED</span> </spa=
+n></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-local-id=3D"fd0c20a8-b3f2-4882-8a66-6df4804ccb2e" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 174.0px;">
+<col style=3D"width: 584.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.5</strong> <strong>Employees information.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if the Directory shows information about the employees.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the Directory page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Employee=E2=80=99s profile</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on employee profile to see information.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The employee=E2=80=99s profile is opened and user can see all the inform=
+ation about the employee: =E2=80=9CContact=E2=80=9D, =E2=80=9CAbout=E2=80=
+=9C, =E2=80=9CPrivate=E2=80=9C.<br>
+Including:<br>
+1.1 =E2=80=9CEmail=E2=80=9C user can send an email to that employee.<br>
+1.2 =E2=80=9CCall=E2=80=9C user can view users phone number.<br>
+1.3 =E2=80=9CChat=E2=80=9C you can view the contact information.<br>
+1.4 =E2=80=9CLinkedin=E2=80=9C takes user to users Linkedin profile.<br>
+1.5 =E2=80=9CBio link=E2=80=9C takes user to see the bio.<br>
+1.6 =E2=80=9COrg chart=E2=80=9C user can view the organization chart.</p></=
+li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Tested</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"712020:=
+df4555e1-151b-424b-85a5-e1b14787c532" href=3D"https://cerebrumhubstudents.a=
+tlassian.net/wiki/people/712020:df4555e1-151b-424b-85a5-e1b14787c532?ref=3D=
+confluence" target=3D"_blank" data-linked-resource-id=3D"612139020" data-li=
+nked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-bas=
+e-url=3D"https://cerebrumhubstudents.atlassian.net/wiki">Roman Sobolenko So=
+lar</a></p>
+<div class=3D"table-wrap">
+<table data-local-id=3D"8401d656-3e9d-4907-abc4-52c18bc7c3f9" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 174.0px;">
+<col style=3D"width: 584.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.6 Filtering by Departments.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if employees can be filtered by Departments.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Select Departments filter</p></li>
+<li>
+<p>Choose any random option</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Clicking on =E2=80=9CDepartments=E2=80=9D button expands lists of depart=
+ments.</p></li>
+<li>
+<p>Clicking on any random option inside the =E2=80=9CDepartments=E2=80=9D c=
+ategory shows all employees working in the selected Department.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"3c37f42e-2278-4f0a-a9f5-a239a711f49c" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 174.0px;">
+<col style=3D"width: 584.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.7 Filter by Countries.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if employees can be filtered by Countries</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Select Countries filter and choose any random option</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Clicking on =E2=80=9CCountries=E2=80=9D button expands lists of countrie=
+s.</p></li>
+<li>
+<p>Clicking on any random option inside the =E2=80=9CCountries=E2=80=9D cat=
+egory shows all employees working in the selected Country.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"de36f040-9538-40b3-bb7d-74d223690ffb" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 174.0px;">
+<col style=3D"width: 584.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.8 Filter by Skills.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if employees can be filtered by Skills</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Select Skills filter and choose any random option</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Clicking on =E2=80=9CSkills=E2=80=9D button expands lists of skills.</p>=
+</li>
+<li>
+<p>Clicking on any random option inside the =E2=80=9CSkills=E2=80=9D catego=
+ry shows all employees with the selected skill</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"b2c236b1-2eaf-4d13-ac6f-bc6ffb3f659f" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 174.0px;">
+<col style=3D"width: 584.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.9 Filter by Titles.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if employees can be filtered by Titles</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Select Titles filter and choose any random option</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Clicking on =E2=80=9CTitles=E2=80=9D button expands lists of titles.</p>=
+</li>
+<li>
+<p>Clicking on any random option inside the =E2=80=9CTitles=E2=80=9D catego=
+ry system shows all employees with the selected Title</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"8514e1d3-706c-4e14-beac-316ae9870564" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 174.0px;">
+<col style=3D"width: 584.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.10 Filter by Expertise</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if employees can be filtered by Expertise.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Select Expertise filter and choose any random option.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Clicking on =E2=80=9CExpertise=E2=80=9D button expands lists of expertis=
+e.</p></li>
+<li>
+<p>Clicking on any random option inside the =E2=80=9CExpertise=E2=80=9D cat=
+egory shows all employees who have the selected Expertise</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"143cf2bc-5348-49a7-9829-d85b43941b74" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.11 Partial search</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if it=E2=80=99s possible to search employees by typing just the fi=
+rst few letters of their name - partial text search</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on the search field</p></li>
+<li>
+<p>Type the first few letters of the employee name and press Enter</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on the search field allows typing</p></li>
+<li>
+<p>The system shows all employees whose names start with the letters typed =
+above</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"448d6380-f98d-412c-bfeb-d5b2ca5dc19f" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.12 Full text search.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if it=E2=80=99s possible to search employees by their full names.<=
+/p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on the search field</p></li>
+<li>
+<p>Type the entire employee name and press Enter</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on the search field allows typing</p></li>
+<li>
+<p>The system find correct employee based on the name entered</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"df29f840-a2c5-4fd1-8cca-f3487aea8ee6" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 585.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.13 User profile.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check if detailed information about every employee can be seen when clic=
+king on his/her profile.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in and on the directory page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on any random employee picture</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<p>Clicking on profile picture shows detailed information about each employ=
+ee.</p>
+<ol start=3D"1">
+<li>
+<p>List of employees is present on the right</p></li>
+<li>
+<p>Clicking on profile picture shows detailed information about each employ=
+ee.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#e3fcef" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"712020:=
+a348005c-dc5a-4240-b4c0-0743b766516e" href=3D"https://cerebrumhubstudents.a=
+tlassian.net/wiki/people/712020:a348005c-dc5a-4240-b4c0-0743b766516e?ref=3D=
+confluence" target=3D"_blank" data-linked-resource-id=3D"618102821" data-li=
+nked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-bas=
+e-url=3D"https://cerebrumhubstudents.atlassian.net/wiki">Nikita Novinkins</=
+a></p>
+<div class=3D"table-wrap">
+<table data-local-id=3D"30a92a3c-6772-41f1-a112-60c17486715c" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 176.0px;">
+<col style=3D"width: 584.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.14</strong> <strong>Validate Profile Data Integrity.</strong><=
+/p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the profile data is consistent across the application.</p></=
+td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in with regular employee credentials.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Open the application and navigate to the employee directory module.</p><=
+/li>
+<li>
+<p>Locate an employee's profile and open it.</p></li>
+<li>
+<p>Review the information provided in the profile (e.g., competences, exper=
+tise, projects, contact information).</p></li>
+<li>
+<p>Compare the profile information with data from other parts of the applic=
+ation (e.g., project modules, skills databases, organization chart).</p></l=
+i>
+<li>
+<p>Validate the accuracy and consistency of the data across the application=
+.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Application opens the employee directory module without errors.</p></li>
+<li>
+<p>Employee profile is accessible, and the data is displayed correctly.</p>=
+</li>
+<li>
+<p>Information such as competences, expertise, projects, and contact detail=
+s are present and complete in the profile view.</p></li>
+<li>
+<p>Profile data matches the information in project modules, skills database=
+s, and organization chart.</p></li>
+<li>
+<p>Data across the application is consistent and up-to-date, with no discre=
+pancies found.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"25d74c58-128b-4575-8c90-ff18a2ef295a" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 580.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.15</strong> <strong>Profile Information Page Layout.</strong><=
+/p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Check that if users have a lot of information in their profiles, it fits=
+ on the page and is displayed properly.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in with regular employee credentials and on the Directory=
+ page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>From the directory, select and open the profile of any user.</p></li>
+<li>
+<p>Review the user's profile page layout, checking for the presence of all =
+information fields (e.g., name, job title, department, skills, expertise, p=
+rojects).</p></li>
+<li>
+<p>Scroll through the user's profile page to observe the display of informa=
+tion.</p></li>
+<li>
+<p>Verify that all information is properly displayed within the layout of t=
+he page and that there is no cropping of content.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>User profiles can be selected and opened from the "Directory" page.</p><=
+/li>
+<li>
+<p>The user's profile page displays all relevant information fields as expe=
+cted (e.g., name, job title, department, skills, expertise, projects).</p><=
+/li>
+<li>
+<p>The user's profile page layout adjusts to accommodate all information, w=
+ithout any content being cropped or cut off.</p></li>
+<li>
+<p>All information fits the page layout, providing a complete and clear vie=
+w of the user's profile.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"5ba0598b-6803-481b-a6a9-ce75d9745512" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 181.0px;">
+<col style=3D"width: 579.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.16 Editing information for admin users.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Ensure, that admin logged user when click on =E2=80=9CEdit=E2=80=9D butt=
+on at the bottom of users profile is redirected to Edit User page</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>The user is logged in with admin credentials and on Directory page.</p><=
+/td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Employee=E2=80=99s profile; edit function</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Click on employee profile to see information.</p></li>
+<li>
+<p>Scroll down and find =E2=80=9CEdit=E2=80=9D button on the bottom of the =
+employees profile page.</p></li>
+<li>
+<p>Click on =E2=80=9CEdit=E2=80=9D page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The administrator can see employees profile information.</p></li>
+<li>
+<p>The page can be scrolled down successfully.</p></li>
+<li>
+<p>The administrator is redirected to Edit User page.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"c20ed2ab-eb21-49d0-8f99-4c28cf6f4c31" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 185.0px;">
+<col style=3D"width: 575.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.17</strong> <strong>Add New Employee.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that an administrator can add a new employee</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in with administrator and on Directory page.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Adding new employee profile</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p>
+<p>Verify that an administrator can add a new employee to the company direc=
+tory.</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Locate and press the "+" button to initiate the process of adding a new =
+employee.</p></li>
+<li>
+<p>Fill in the required profile information for the new employee, including=
+ name, contact information, and department.</p></li>
+<li>
+<p>Once all required information is entered, submit the form to create the =
+new employee profile.</p></li>
+<li>
+<p>View the new employee's profile in the Directory.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The "+" button successfully opens the form for adding a new employee.</p=
+></li>
+<li>
+<p>The form accepts the inputted information without errors and allows the =
+submission process.</p></li>
+<li>
+<p>Upon successful submission, the new employee profile is added to the dir=
+ectory.</p></li>
+<li>
+<p>The newly added employee's profile is visible in the directory, with all=
+ provided information correctly displayed.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-local-id=3D"f3d7bcf7-0e46-43ff-b505-6a6aea8fe4be" data-layout=
+=3D"default" data-table-width=3D"760" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 188.0px;">
+<col style=3D"width: 572.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Test Case ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>2.18</strong> <strong>Adding Employee with Incomplete Informatio=
+n.</strong></p></th>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Description</p></td>
+<td class=3D"confluenceTd">
+<p>Verify that the application prompts an error if the required profile inf=
+ormation is incomplete.</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Precondition</p></td>
+<td class=3D"confluenceTd">
+<p>User is logged in with administrator credentials and on Directory page.<=
+/p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Data</p></td>
+<td class=3D"confluenceTd">
+<p>Adding new employee profile</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Test Steps</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Press the "+" button to initiate the process of adding a new employee pr=
+ofile.</p></li>
+<li>
+<p>Fill in only partial profile information, ensuring that at least one req=
+uired field is left empty.</p></li>
+<li>
+<p>Submit the form for creating the new employee profile.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Expected result</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>The "+" button is clickable and successfully opens the form for adding a=
+ new employee profile.</p></li>
+<li>
+<p>Submitting the form with incomplete information prompts an error message=
+.</p></li>
+<li>
+<p>The application displays an error message stating "Please complete all r=
+equired fields." indicating that required information is missing.</p></li>
+<li>
+<p>The form submission is halted, and the user remains on the form to compl=
+ete the missing required fields.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p>Result</p></td>
+<td data-highlight-colour=3D"#abf5d1" class=3D"confluenceTd">
+<p>PASSED</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_12_1708057164.1719818474396--
